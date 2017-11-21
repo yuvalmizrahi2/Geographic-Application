@@ -72,7 +72,7 @@ public class CsvFiles implements IOFile
 		FileWriter fw = null;
 		PrintWriter outs = null;
 		try {
-			fw = new FileWriter(filename);
+			fw = new FileWriter("output/"+filename);
 			outs = new PrintWriter(fw);
 			outs.print("Date,ID,Lat,Lon,Alt,#WiFi networks");
 			for(int i = 1 ; i <= 10 ; i++)
