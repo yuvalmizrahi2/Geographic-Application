@@ -1,4 +1,4 @@
-package oopv3;
+
 /**
  * A class containing all wifi data collected 
  * @author יובל מזרחי

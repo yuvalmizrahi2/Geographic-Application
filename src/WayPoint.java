@@ -1,4 +1,4 @@
-package oopv3;
+
 /**
  * A class that stores all the coordinates of the sample
  * @author יובל מזרחי

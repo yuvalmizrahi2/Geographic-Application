@@ -1,4 +1,4 @@
-package oopv3;
+
 
 /**
  * An interface that combines writing and reading functions

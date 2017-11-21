@@ -1,4 +1,4 @@
-package oopv3;
+
 /**
  * enum that contains the names of the existing filter types
  * @author יובל מזרחי

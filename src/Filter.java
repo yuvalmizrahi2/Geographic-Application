@@ -1,4 +1,4 @@
-package oopv3;
+
 /**
  * A class that preserves the type of filtering it chooses
  * @author יובל מזרחי
