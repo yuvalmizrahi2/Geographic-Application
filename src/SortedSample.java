@@ -43,9 +43,8 @@ public class SortedSample
 	private static Sample getsample(String[] temp , String id)
 	{
 		Sample sample = new Sample();
-		sample.getWaypoint().setLat(Double.parseDouble(temp[6]));
-		sample.getWaypoint().setLon(Double.parseDouble(temp[7]));
-		sample.getWaypoint().setAlt(Double.parseDouble(temp[8]));
+		WayPoint point = new WayPoint(Double.parseDouble(temp[6]), Double.parseDouble(temp[7]), Double.parseDouble(temp[8]));
+		sample.setWaypoint(point);
 		sample.setId(id);
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		temp[3] = changeforamt(temp[3]);

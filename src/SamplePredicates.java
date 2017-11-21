@@ -27,7 +27,7 @@ public class SamplePredicates {
 	 */
 	public static Predicate<Sample> isintheradius(WayPoint waypoint , Double radius)
 	{
-		return p -> Point2D.distance(waypoint.getLat(), waypoint.getLon(), p.getWaypoint().getLat(), p.getWaypoint().getLon()) <= radius;
+		return p -> Point2D.distance(waypoint.getLat().getCoordinate(), waypoint.getLon().getCoordinate(), p.getWaypoint().getLat().getCoordinate(), p.getWaypoint().getLon().getCoordinate()) <= radius;
 	}
 	/**
 	 * A function that filters by date

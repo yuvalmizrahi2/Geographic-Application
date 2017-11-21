@@ -166,9 +166,9 @@ public class Gui {
 		try
 		{
 			System.out.println("enter the lat :");
-			point.setLat(Double.parseDouble(sc.next()));
+			point.getLat().setCoordinate(Double.parseDouble(sc.next()));
 			System.out.println("enter the lon :");
-			point.setLon(Double.parseDouble(sc.next()));
+			point.getLon().setCoordinate(Double.parseDouble(sc.next()));
 			System.out.println("enter the radius");
 			radius = Double.parseDouble(sc.next());
 			samples = SamplePredicates.filterSample(samples, SamplePredicates.isintheradius(point, radius));

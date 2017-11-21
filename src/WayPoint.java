@@ -5,9 +5,9 @@
  *
  */
 public class WayPoint {
-	private double lat;
-	private double lon;
-	private double alt;
+	private coordinate lat;
+	private coordinate lon;
+	private coordinate alt;
 	/**
 	 * A constructor that receives the parameters lat,lon,alt
 	 * @param lat
@@ -16,9 +16,9 @@ public class WayPoint {
 	 */
 	public WayPoint(double lat, double lon, double alt) {
 		super();
-		this.lat = lat;
-		this.lon = lon;
-		this.alt = alt;
+		this.lat = new coordinate(lat);
+		this.lon = new coordinate(lon);
+		this.alt = new coordinate(alt);
 	}
 	/**
 	 * Default constructor
@@ -30,42 +30,42 @@ public class WayPoint {
 	 * function that return the value of the lat
 	 * @return lat
 	 */
-	public double getLat() {
+	public coordinate getLat() {
 		return lat;
 	}
 	/**
 	 * function that get lat and change the lat value
 	 * @param lat
 	 */
-	public void setLat(double lat) {
+	public void setLat(coordinate lat) {
 		this.lat = lat;
 	}
 	/**
 	 * function that return the value of the lon
 	 * @return lon
 	 */
-	public double getLon() {
+	public coordinate getLon() {
 		return lon;
 	}
 	/**
 	 * function that get lon and change the lon value
 	 * @param lon
 	 */
-	public void setLon(double lon) {
+	public void setLon(coordinate lon) {
 		this.lon = lon;
 	}
 	/**
 	 * function that return the value of the alt
 	 * @return alt
 	 */
-	public double getAlt() {
+	public coordinate getAlt() {
 		return alt;
 	}
 	/**
 	 * function that get alt and change the alt value
 	 * @param alt
 	 */
-	public void setAlt(double alt) {
+	public void setAlt(coordinate alt) {
 		this.alt = alt;
 	}
 	/**
@@ -75,11 +75,11 @@ public class WayPoint {
 	 * @return true if equal else false
 	 */
 	public boolean equals(WayPoint obj) {
-		if(!(this.alt == obj.alt))
+		if(!(this.alt.equals(obj.alt)))
 			return false;
-		if(!(this.lat == obj.lat))
+		if(!(this.lat.equals(obj.lat)))
 			return false;
-		if(!(this.lon == obj.lon))
+		if(!(this.lon.equals(obj.lon)))
 			return false;
 		return true;
 	}
