@@ -5,9 +5,9 @@
  *
  */
 public class WayPoint {
-	private coordinate lat;
-	private coordinate lon;
-	private coordinate alt;
+	private Coordinate lat;
+	private Coordinate lon;
+	private Coordinate alt;
 	/**
 	 * A constructor that receives the parameters lat,lon,alt
 	 * @param lat
@@ -16,9 +16,9 @@ public class WayPoint {
 	 */
 	public WayPoint(double lat, double lon, double alt) {
 		super();
-		this.lat = new coordinate(lat);
-		this.lon = new coordinate(lon);
-		this.alt = new coordinate(alt);
+		this.lat = new Coordinate(lat);
+		this.lon = new Coordinate(lon);
+		this.alt = new Coordinate(alt);
 	}
 	/**
 	 * Default constructor
@@ -30,42 +30,42 @@ public class WayPoint {
 	 * function that return the value of the lat
 	 * @return lat
 	 */
-	public coordinate getLat() {
+	public Coordinate getLat() {
 		return lat;
 	}
 	/**
 	 * function that get lat and change the lat value
 	 * @param lat
 	 */
-	public void setLat(coordinate lat) {
+	public void setLat(Coordinate lat) {
 		this.lat = lat;
 	}
 	/**
 	 * function that return the value of the lon
 	 * @return lon
 	 */
-	public coordinate getLon() {
+	public Coordinate getLon() {
 		return lon;
 	}
 	/**
 	 * function that get lon and change the lon value
 	 * @param lon
 	 */
-	public void setLon(coordinate lon) {
+	public void setLon(Coordinate lon) {
 		this.lon = lon;
 	}
 	/**
 	 * function that return the value of the alt
 	 * @return alt
 	 */
-	public coordinate getAlt() {
+	public Coordinate getAlt() {
 		return alt;
 	}
 	/**
 	 * function that get alt and change the alt value
 	 * @param alt
 	 */
-	public void setAlt(coordinate alt) {
+	public void setAlt(Coordinate alt) {
 		this.alt = alt;
 	}
 	/**

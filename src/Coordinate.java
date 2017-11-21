@@ -3,12 +3,12 @@
  * @author יובל מזרחי
  *
  */
-public class coordinate {
+public class Coordinate {
 	private double coordinate;
 	/**
 	 * default constructor
 	 */
-	public coordinate()
+	public Coordinate()
 	{
 		
 	}
@@ -16,7 +16,7 @@ public class coordinate {
 	 * A constructor that get a coordinate
 	 * @param coordinate
 	 */
-	public coordinate(double coordinate)
+	public Coordinate(double coordinate)
 	{
 		this.coordinate = coordinate;
 	}
@@ -40,7 +40,7 @@ public class coordinate {
 	 * @param obj
 	 * @return
 	 */
-	public boolean equals(coordinate obj) {
+	public boolean equals(Coordinate obj) {
 		if(this.coordinate == obj.getCoordinate())
 			return true;
 		return false;
