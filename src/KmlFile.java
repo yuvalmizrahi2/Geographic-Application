@@ -1,6 +1,8 @@
 
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -8,6 +10,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
+import de.micromata.opengis.kml.v_2_2_0.Document;
+import de.micromata.opengis.kml.v_2_2_0.Kml;
+import de.micromata.opengis.kml.v_2_2_0.TimeStamp;
 
 /**
  * A class that creates a filtered kml file
@@ -22,6 +28,7 @@ public class KmlFile implements IOFile {
 	 * @param path
 	 */
 	public KmlFile(String path) {
+		this.files = new ArrayList<>();
 		this.path = path;
 		readfile();
 	}
@@ -62,7 +69,7 @@ public class KmlFile implements IOFile {
 		FileReader fr;
 		BufferedReader br;
 		try {
-			fr = new FileReader(this.path);
+			fr = new FileReader("output/"+this.path);
 			br = new BufferedReader(fr);
 			String str = br.readLine();
 			str = br.readLine();
@@ -87,6 +94,25 @@ public class KmlFile implements IOFile {
 	@Override
 	public void writefile(String filename) {
 		this.files = Gui.startgui(files);
+		final Kml kml = new Kml();
+		Document doc=kml.createAndSetDocument();
+		for(int i = 0; i < this.files.size() ; i++)
+		{
+			TimeStamp time = new TimeStamp();
+			DateFormat df = new SimpleDateFormat("dd-MM-yyyyTHH:mm:ssZ");
+			time.setWhen(df.format(this.files.get(i).getDate()));
+			for(int j = 0 ; j < this.files.get(i).getArraywifi().size() ; j++)
+			{
+				doc.createAndAddPlacemark().withName(this.files.get(i).getId())
+				.withDescription(this.files.get(i).toString()+this.files.get(i).getArraywifi().get(j).toString())
+				.withTimePrimitive(time);
+			}
+		}
+		try {
+			kml.marshal(new File(filename));
+		} catch (FileNotFoundException e) {
+			System.out.println("Exception thrown  :" + e);
+		}
 	}
 	/**
 	 * A function that accepts a string line and turns it into a sample
@@ -97,16 +123,16 @@ public class KmlFile implements IOFile {
 	{
 		String[] temp = row.split(",");
 		Sample sample = new Sample();
-		DateFormat df = new SimpleDateFormat("dd-MM-yyyyTHH:mm:ssZ");
-		temp[0] = temp[0].replaceAll(" ", "T");
-		temp[0] = temp[0].replaceAll("/", ":");
-		temp[0] = temp[0] + "Z";
+		DateFormat df = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 		Date date = null;
 		try {
 			date = df.parse(temp[0]);
 		} catch (ParseException e) {
 			System.out.println("Exception thrown  :" + e);
 		}
+		temp[0] = temp[0].replaceAll(" ", "T");
+		temp[0] = temp[0].replaceAll("/", ":");
+		temp[0] = temp[0] + "Z";
 		sample.setDate(date);
 		sample.setId(temp[1]);
 		sample.setWaypoint(new WayPoint(Double.parseDouble(temp[2]), Double.parseDouble(temp[3]), Double.parseDouble(temp[4])));
@@ -116,8 +142,8 @@ public class KmlFile implements IOFile {
 			Wifi wifi = new Wifi();
 			wifi.setSsid(temp[6 + i*4]);
 			wifi.setMac(temp[7 + i*4]);
-			wifi.setFrequncy(temp[8] + i*4);
-			wifi.setSingal(temp[9] + 4*i);
+			wifi.setFrequncy(temp[8 + i*4]);
+			wifi.setSingal(temp[9 + 4*i]);
 			wifis.add(wifi);
 		}
 		sample.setArraywifi(wifis);

@@ -59,10 +59,11 @@ public class CsvFiles implements IOFile
 	@Override
 	public void readfile() 
 	{
-		String namefile = getcurrenttime() + ".csv";
+		String namefile = getcurrenttime();
 		readfile(this.path);
-		writefile(namefile);
-		//KmlFile kml = new KmlFile(namefile);
+		writefile(namefile+".csv");
+		KmlFile kml = new KmlFile(namefile+".csv");
+		kml.writefile(namefile+".kml");
 	}
 	/**
 	 * A function that accepts the entire sample collection and writes it to a csv file
@@ -85,7 +86,7 @@ public class CsvFiles implements IOFile
 				if(this.files.get(i).getArraywifi().size() != 0)
 				{
 					outs.print(this.files.get(i).toString());
-					outs.print(this.files.get(i).getArraywifi().size());
+					outs.print(Math.min(10, this.files.get(i).getArraywifi().size()));
 					for(int j = 0; j < Math.min(10, this.files.get(i).getArraywifi().size()) ; j++ )
 					{
 						outs.print(this.files.get(i).getArraywifi().get(j).toString());
