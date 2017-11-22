@@ -40,10 +40,10 @@ public class Coordinate {
 	 * @param obj
 	 * @return
 	 */
-	public boolean equals(Coordinate obj) {
-		if(this.coordinate == obj.getCoordinate())
-			return true;
-		return false;
+	@Override
+	public boolean equals(Object obj) {
+		Coordinate coor = (Coordinate)obj;
+		return this.coordinate == coor.getCoordinate();
 	}
 	/**
 	 * A function that print the details of the coordinate

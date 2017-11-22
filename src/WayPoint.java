@@ -77,14 +77,11 @@ public class WayPoint {
 	 * @param obj
 	 * @return true if equal else false
 	 */
-	public boolean equals(WayPoint obj) {
-		if(!(this.alt.equals(obj.alt)))
-			return false;
-		if(!(this.lat.equals(obj.lat)))
-			return false;
-		if(!(this.lon.equals(obj.lon)))
-			return false;
-		return true;
+	@Override
+	public boolean equals(Object obj) {
+		WayPoint point = (WayPoint)obj;
+		return this.alt.equals(point.alt) && this.lat.equals(point.lat)
+				&& this.lon.equals(point.lon);
 	}
 	/**
 	 * A function that print the details of the way point

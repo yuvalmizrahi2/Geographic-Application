@@ -83,16 +83,16 @@ public class Sample {
 	 * @param temp
 	 * @return true if equal else false
 	 */
-	public boolean equals(Sample temp) {
-		if(!this.Waypoint.equals(temp.Waypoint))
-			return false;
-		if(!this.date.equals(temp.date))
-			return false;
-		return true;
+	@Override
+	public boolean equals(Object temp) {
+		Sample sample = (Sample)temp;
+		return this.Waypoint.equals(sample.Waypoint) &&
+				this.date.equals(sample.date);
 	}
 	/**
 	 * A function that print the details of the sample
 	 */
+	@Override
 	public String toString() {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return dateFormat.format(this.date.getTime())+","+this.id+","+this.Waypoint.toString()+",";

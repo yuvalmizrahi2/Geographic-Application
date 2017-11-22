@@ -50,5 +50,17 @@ public class SamplePredicates {
 	{
 		return (ArrayList<Sample>) samples.stream().filter(predicate).collect(Collectors.<Sample>toList());
 	}
+	/**
+	 * A function that receives an array of samples
+	 * and filter the samples that don't contain replicate mac
+	 * and save the strongest mac
+	 * @param samples
+	 * @return
+	 */
+	public static ArrayList<Sample> replicateMac(ArrayList<Sample> samples)
+	{
+		
+		return samples;
+	}
 
 }
