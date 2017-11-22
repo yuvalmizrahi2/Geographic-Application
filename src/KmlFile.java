@@ -93,23 +93,23 @@ public class KmlFile implements IOFile {
 	 */
 	@Override
 	public void writefile(String filename) {
-		this.files = Gui.startgui(files);
+		this.files = new Gui().startgui(files);
 		final Kml kml = new Kml();
 		Document doc=kml.createAndSetDocument();
 		for(int i = 0; i < this.files.size() ; i++)
 		{
 			TimeStamp time = new TimeStamp();
-			DateFormat df = new SimpleDateFormat("dd-MM-yyyyTHH:mm:ssZ");
-			time.setWhen(df.format(this.files.get(i).getDate()));
+			DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			time.setWhen(df.format(this.files.get(i).getDate()).replaceAll(" ", "T") + "Z");
 			for(int j = 0 ; j < this.files.get(i).getArraywifi().size() ; j++)
 			{
 				doc.createAndAddPlacemark().withName(this.files.get(i).getId())
 				.withDescription(this.files.get(i).toString()+this.files.get(i).getArraywifi().get(j).toString())
-				.withTimePrimitive(time);
+				.withTimePrimitive(time).createAndSetPoint().addToCoordinates(this.files.get(i).getWaypoint().getLon().getCoordinate(), this.files.get(i).getWaypoint().getLat().getCoordinate());
 			}
 		}
 		try {
-			kml.marshal(new File(filename));
+			kml.marshal(new File("output/"+filename));
 		} catch (FileNotFoundException e) {
 			System.out.println("Exception thrown  :" + e);
 		}
@@ -123,7 +123,7 @@ public class KmlFile implements IOFile {
 	{
 		String[] temp = row.split(",");
 		Sample sample = new Sample();
-		DateFormat df = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date date = null;
 		try {
 			date = df.parse(temp[0]);

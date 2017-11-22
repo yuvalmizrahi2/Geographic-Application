@@ -1,0 +1,3365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,rubinstein,e8:cc:18:ec:a6:64,2437,-75</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,hadad,70:62:b8:30:db:f8,2412,-75</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,HOTBOX-81C2,7c:03:4c:ba:aa:42,2437,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,davidr,c8:be:19:10:99:d1,2437,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,GRATCH,04:bd:88:00:e1:40,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,HomeVFS,7c:b7:33:bf:bb:5f,2437,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,pollock24,04:a1:51:d0:22:a5,2422,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,japan,70:62:b8:30:f8:4e,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,bz18073460,14:ae:db:c4:9f:9a,2457,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:49,PB2PRO,32.16846448,34.80091936,32.0,,pollock5,04:a1:51:d0:22:a6,5300,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,vue sur mer_2.4,a4:2b:8c:98:db:d2,2412,-76</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,dserota,00:1b:9e:7a:43:13,2437,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,Claude,d0:d4:12:5c:c3:6a,2462,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,Yoels,00:8c:54:8b:ec:e1,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,I.L.L,a0:63:91:78:40:b2,2462,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,Dav,c0:d9:62:f5:17:d9,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:52,PB2PRO,32.16849288,34.80064482,34.0,,Galei1,d8:fe:e3:02:d1:01,2462,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,LEE1,14:ae:db:ba:2d:35,2412,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,Gay splays,00:78:9e:fa:8b:23,2437,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,simba6,d8:37:be:f1:86:c9,2442,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,netbox,d0:d4:12:67:a1:fa,2412,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,BezeqFree,06:ae:db:ba:2d:35,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,MEIR_2.4,a0:4f:d4:2c:5e:11,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,Chen,14:ae:db:30:c9:d2,2417,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,Galei1,d8:fe:e3:02:d1:01,2462,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:54,PB2PRO,32.16851102,34.80047649,35.0,,MEIR_5,a0:4f:d4:2c:5e:12,5260,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,DanAccadia,0c:f4:d5:1b:3f:68,2462,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,Dune,a0:0a:bf:0a:e0:16,2442,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,Bourne,10:0d:7f:88:fd:88,2462,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,,88:de:a9:bf:04:2b,2462,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,IIT,ec:8c:a2:a1:25:c8,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,DanAccadia,d8:38:fc:26:02:98,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:20:57,PB2PRO,32.16854703,34.80030064,34.0,,steeletennis,00:21:04:e8:c5:8a,2462,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,,d8:38:fc:66:02:98,2437,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,BezeqNGN_J03015_2.4GHz_1,e8:fc:af:9d:69:be,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,Marine-Heights,d4:68:4d:39:23:b8,2462,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,Bezeq Free,62:fc:af:9d:69:bf,2412,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,DanAccadia,d8:38:fc:26:02:98,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,Sgreg,28:94:0f:f9:a6:d4,2417,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,DanAccadia,0c:f4:d5:1b:d3:88,2422,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,DanAccadia,d8:38:fc:26:fd:18,2427,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:01,PB2PRO,32.16858542,34.80020728,37.0,,silverbeck,3c:1e:04:03:71:97,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,preminger,c0:ac:54:f5:b1:84,2437,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,stefan,e0:ce:c3:8c:2b:5a,2437,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,NET0130335,d0:d4:12:5c:4d:4a,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,Ellman-2.4Ghz,04:a1:51:c4:27:6e,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,feelhome,c0:ac:54:f7:3f:be,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:03,PB2PRO,32.16865005,34.80016462,37.0,,Davis,1c:5f:2b:91:45:b1,2412,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:06,PB2PRO,32.16881248,34.80015942,36.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-72</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:06,PB2PRO,32.16881248,34.80015942,36.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:06,PB2PRO,32.16881248,34.80015942,36.0,,HOTBOX-718A,c0:ac:54:f7:c6:78,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:06,PB2PRO,32.16881248,34.80015942,36.0,,Davis,1c:5f:2b:91:45:b1,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:06,PB2PRO,32.16881248,34.80015942,36.0,,Video Connection,6c:b0:ce:e8:29:c0,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:08,PB2PRO,32.16895206,34.80017686,38.0,,Daniela,14:ae:db:32:cf:42,2442,-96</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:08Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017686,32.16895206</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:11,PB2PRO,32.1692159,34.80022603,35.0,,martin,54:e6:fc:b5:14:c2,2452,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:11,PB2PRO,32.1692159,34.80022603,35.0,,Video Connection,6c:b0:ce:e8:2a:50,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:11,PB2PRO,32.1692159,34.80022603,35.0,,marcus 1,74:da:38:30:26:6f,2417,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:11,PB2PRO,32.1692159,34.80022603,35.0,,island-3927A0,d4:68:4d:79:27:a3,2452,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:14,PB2PRO,32.16947007,34.80029112,35.0,,HOTBOX-62D0,54:64:d9:66:27:79,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:14,PB2PRO,32.16947007,34.80029112,35.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:14,PB2PRO,32.16947007,34.80029112,35.0,,ISRAEL26,54:e6:fc:cc:5a:b8,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:14,PB2PRO,32.16947007,34.80029112,35.0,,angelina,bc:f6:85:0d:5b:c0,2437,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,DanAccadia,0c:f4:d5:1b:3f:68,2462,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,stefan,e0:ce:c3:8c:2b:5a,2437,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,DanAccadia,d8:38:fc:26:02:98,2437,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,NET0130335,d0:d4:12:5c:4d:4a,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,Bezeq Free,62:fc:af:9d:69:bf,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,TopAudio,e4:f4:c6:4d:c7:5c,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,feelhome,c0:ac:54:f7:3f:be,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:17,PB2PRO,32.16970586,34.8003408,38.0,,Marine-Heights,d4:68:4d:39:23:b8,2462,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,Bubble Wifi,74:ea:3a:e5:4f:02,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,HOTBOX-718A,c0:ac:54:f7:c6:78,2437,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,Video Connection,6c:b0:ce:e8:29:c0,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,TopAudio,04:a1:51:2f:f2:be,2437,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:20,PB2PRO,32.1698537,34.80041581,35.0,,Davis,1c:5f:2b:91:45:b1,2412,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:23,PB2PRO,32.16999698,34.80047799,33.0,,Daniela,14:ae:db:32:cf:42,2442,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:23Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047799,32.16999698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:23,PB2PRO,32.16999698,34.80047799,33.0,,Chenriko,c8:be:19:13:21:d6,2422,-98</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:23Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047799,32.16999698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:26,PB2PRO,32.17015135,34.80053822,30.0,,DIRECT-D8-HP OfficeJet Pro 8710,98:e7:f4:42:4e:d9,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:26,PB2PRO,32.17015135,34.80053822,30.0,,phily,2c:b0:5d:40:dc:ac,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:26,PB2PRO,32.17015135,34.80053822,30.0,,HOTBOX-CB76,40:65:a3:2d:81:47,2412,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:21:26,PB2PRO,32.17015135,34.80053822,30.0,,Rosaness,84:18:3a:1c:b7:18,2412,-96</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,HOTBOX-8C78,c0:ac:54:f8:57:42,2452,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,allen123,54:e6:fc:b5:39:9e,2462,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,rebecca,f0:7d:68:17:cd:fa,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,Hotbox,14:ae:db:c1:73:25,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,daniel,e8:1d:a8:05:01:58,2427,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,hazout,14:ae:db:b7:a6:05,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,daniel,d8:38:fc:1c:e6:58,2442,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,daniel,e8:1d:a8:04:fd:f8,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,MiriTal,a0:4f:d4:3e:7c:31,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:04,PB2PRO,32.17014829,34.80053654,33.0,,daniel,e8:1d:a8:04:fc:08,2462,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,daniel,e8:1d:a8:05:0c:98,2437,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,Rosaness,84:18:3a:1d:3b:b8,2462,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,daniel,e8:1d:a8:04:fb:e8,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,daniel,e8:1d:a8:04:fa:68,2462,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,Rosaness,84:18:3a:1c:c9:a8,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,Chana,10:be:f5:3d:80:3a,2452,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:07,PB2PRO,32.17006781,34.80050789,33.0,,Zeitlin1-Salon,60:e3:27:9e:8a:ea,2462,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:10,PB2PRO,32.17004183,34.80050113,33.0,,Bezeq Free 0a5352,62:a3:86:0a:53:52,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050113,32.17004183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:10,PB2PRO,32.17004183,34.80050113,33.0,,lazare2.4,a4:2b:8c:99:02:05,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050113,32.17004183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:13,PB2PRO,32.17003707,34.80050995,33.0,,,d8:38:fc:66:02:98,2437,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:13Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050995,32.17003707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:17,PB2PRO,32.16991686,34.80048569,31.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80048569,32.16991686</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:20,PB2PRO,32.16971928,34.80041492,30.0,,Bubble Wifi,74:ea:3a:e5:4f:02,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041492,32.16971928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:20,PB2PRO,32.16971928,34.80041492,30.0,,HP-Print-5C-Officejet Pro 8600,84:34:97:ac:a1:5c,2412,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041492,32.16971928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:22,PB2PRO,32.16953355,34.80035958,30.0,,HOTBOX-62D0,54:64:d9:66:27:79,2412,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:22,PB2PRO,32.16953355,34.80035958,30.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:22,PB2PRO,32.16953355,34.80035958,30.0,,Bezeq Free NA1F34,72:2b:8c:99:02:06,2412,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:22,PB2PRO,32.16953355,34.80035958,30.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:25,PB2PRO,32.16925266,34.80028248,25.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:25,PB2PRO,32.16925266,34.80028248,25.0,,DanAccadia,0c:f4:d5:1b:49:38,2442,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:25,PB2PRO,32.16925266,34.80028248,25.0,,,0c:f4:d5:5b:49:38,2442,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:25,PB2PRO,32.16925266,34.80028248,25.0,,HP-Print-33-Deskjet 4640 series,a0:48:1c:65:96:33,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,Mishayev,e0:8f:ec:05:fb:f7,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,HOTBOX-E698,e8:d1:1b:71:e6:9e,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,Gold,a0:4f:d4:44:36:71,2412,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,,d8:38:fc:66:02:98,2437,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,Chana,10:be:f5:3d:80:3a,2452,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:28,PB2PRO,32.16896675,34.80022497,25.0,,Bezeq Free 0a5352,62:a3:86:0a:53:52,2437,-93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,HOTBOX-3DFD,b4:ee:b4:a7:3e:03,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,DanAccadia,d8:38:fc:26:dc:38,2427,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,BezeqNGN_98087,4c:60:de:42:20:28,2462,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,,fa:8f:ca:67:d0:69,2422,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,,d8:38:fc:66:dc:38,2427,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,Bezeq Free 3A4428,62:ff:d4:7a:ac:3a,2462,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:31,PB2PRO,32.16873071,34.8001699,25.0,,DanAccadia,d8:38:fc:25:9d:28,2427,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Davis,1c:5f:2b:91:45:b1,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,island-3927A0,d4:68:4d:79:27:a3,2452,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Bezeq Free,62:fc:af:9d:69:bf,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Video Connection,6c:b0:ce:e8:29:c0,2462,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Lazar,54:e6:fc:ff:72:1f,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:34,PB2PRO,32.16857669,34.80014154,27.0,,Treepodia_WIFI2,90:6c:ac:a9:dd:ba,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,HOTBOX-62D0,54:64:d9:66:27:79,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,DanAccadia,0c:f4:d5:1b:e1:58,2427,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,,0c:f4:d5:5b:d8:38,2412,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,,d8:38:fc:65:9d:28,2427,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,Marine-Heights,d4:68:4d:39:23:b8,2462,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,TNCAPE5A34D,9c:97:26:8a:43:e1,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,ISRAEL26,54:e6:fc:cc:5a:b8,2462,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:37,PB2PRO,32.16840058,34.80011614,28.0,,DanAccadia,d8:38:fc:26:dd:d8,2447,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,island-3927A0,d4:68:4d:79:27:a3,2452,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,DanAccadia,d8:38:fc:26:dc:38,2427,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,Rozalin.co.il,08:5b:0e:8e:06:97,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,Daniela,14:ae:db:32:cf:42,2442,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,,d8:38:fc:66:dd:d8,2447,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,HP-Print-33-Deskjet 4640 series,a0:48:1c:65:96:33,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:40,PB2PRO,32.16820938,34.80009418,26.0,,HP-Print-99-Officejet 6700,84:34:97:1c:cd:99,2437,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-74</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,PELEG,14:d6:4d:f4:42:d7,2437,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,NET0130335,d0:d4:12:5c:4d:4a,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,DanAccadia,0c:f4:d5:1b:d7:a8,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,DanAccadia,0c:f4:d5:1b:0b:18,2427,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,,d8:38:fc:68:24:7c,5220,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,DanAccadia,d8:38:fc:28:24:7c,5220,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,,d8:38:fc:68:18:58,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:43,PB2PRO,32.16806164,34.80020374,28.0,,,0c:f4:d5:5b:09:9c,5290,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,Rozalin.co.il,08:5b:0e:8e:06:97,2412,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,feelhome,c0:ac:54:f7:3f:be,2412,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,hilary,00:8c:54:91:22:f1,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,DanAccadia,0c:f4:d5:1b:49:38,2442,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,margopharma,1c:af:f7:6f:07:93,2437,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:46,PB2PRO,32.16801984,34.80044722,27.0,,,0c:f4:d5:5b:49:38,2442,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-70</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,HOTBOX-AB52,90:8d:78:e4:ab:7f,2462,-74</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,BEZEQINT-0301,14:ae:db:cb:03:05,2462,-76</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,HOTBOX-1C48,c0:ac:54:f8:ea:e1,2412,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,finquel,f8:e9:03:11:e0:d8,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,margopharma,1c:af:f7:6f:07:93,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,network,48:ee:0c:3d:53:f3,2452,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,Shohat01,7c:b7:33:ea:b3:b4,2417,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,Bhome-1845,ac:3f:a4:85:29:d8,2412,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>2017-10-27 16:23:49,PB2PRO,32.16798596,34.80081806,26.0,,marcus,30:46:9a:2c:3d:94,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,Chen,14:ae:db:30:c9:d2,2417,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,BezeqFree,14:af:db:30:c9:d2,2417,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,hadad,70:62:b8:30:db:f8,2412,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,japan,70:62:b8:30:f8:4e,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,joy,9c:d6:43:23:0c:9c,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,pollock24,04:a1:51:d0:22:a5,2422,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:51,OnePlus3T,32.16847482,34.80076466,32.0,,Chen_5,14:ae:db:30:c9:d5,5240,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,MEIR_2.4,a0:4f:d4:2c:5e:11,2412,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,eldan,00:23:cd:16:9e:e0,2437,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,netbox,d0:d4:12:67:a1:fa,2412,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,Dav,c0:d9:62:f5:17:d9,2437,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,Shemesh,3c:1e:04:05:ad:17,2462,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,DIRECT-C5-HP OfficeJet 3830,30:e1:71:08:ae:c7,2437,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,rubinstein,e8:cc:18:ec:a6:64,2437,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,simba6,d8:37:be:f1:86:c9,2442,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,Claude,d0:d4:12:5c:c3:6a,2462,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:52,OnePlus3T,32.16848744,34.80067508,32.0,,HOTBOX-E00E,f8:ab:05:46:d5:5e,2412,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:53,OnePlus3T,32.16849248,34.80059962,31.0,,hagit_2.4,6c:b0:ce:33:a4:d5,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:53Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80059962,32.16849248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:20:53,OnePlus3T,32.16849248,34.80059962,31.0,,dserota,00:1b:9e:7a:43:13,2437,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:53Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80059962,32.16849248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,DanAccadia,0c:f4:d5:1b:38:e8,2452,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,DanAccadia,d8:38:fc:27:22:58,2452,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,DanAccadia,d8:38:fc:26:d2:68,2457,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,,d8:38:fc:66:d2:68,2457,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,DanAccadia,d8:38:fc:26:fd:18,2427,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:02,OnePlus3T,32.16859445,34.80025492,29.0,,stefan,e0:ce:c3:8c:2b:5a,2437,-95</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:03,OnePlus3T,32.16863449,34.80024121,29.0,,vue sur mer_2.4,a4:2b:8c:98:db:d2,2412,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024121,32.16863449</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:07,OnePlus3T,32.16888669,34.80024686,30.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:07,OnePlus3T,32.16888669,34.80024686,30.0,,,0c:f4:d5:5b:09:98,2472,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:07,OnePlus3T,32.16888669,34.80024686,30.0,,stefan,e0:ce:c3:8c:2b:5a,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:07,OnePlus3T,32.16888669,34.80024686,30.0,,DanAccadia,0c:f4:d5:1b:08:58,2467,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:07,OnePlus3T,32.16888669,34.80024686,30.0,,DanAccadia,0c:f4:d5:1b:09:98,2472,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:10,OnePlus3T,32.16913213,34.80027706,32.0,,Video Connection,6c:b0:ce:e8:2a:50,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027706,32.16913213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:10,OnePlus3T,32.16913213,34.80027706,32.0,,Video Connection,6c:b0:ce:e8:2e:50,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027706,32.16913213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:10,OnePlus3T,32.16913213,34.80027706,32.0,,Sgreg,28:94:0f:f9:a6:d4,2417,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027706,32.16913213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:12,OnePlus3T,32.16930276,34.80030556,32.0,,Video Connection,6c:b0:ce:e8:2e:50,2437,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:12Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030556,32.16930276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:12,OnePlus3T,32.16930276,34.80030556,32.0,,Ellman-2.4Ghz,04:a1:51:c4:27:6e,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:12Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030556,32.16930276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:12,OnePlus3T,32.16930276,34.80030556,32.0,,shmuela,00:78:9e:fa:33:72,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:12Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030556,32.16930276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:15,OnePlus3T,32.169556,34.80036043,33.0,,BezeqFree,14:af:db:30:c9:d2,2417,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:15,OnePlus3T,32.169556,34.80036043,33.0,,japan,70:62:b8:30:f8:4e,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:15,OnePlus3T,32.169556,34.80036043,33.0,,Chen,14:ae:db:30:c9:d2,2417,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:15,OnePlus3T,32.169556,34.80036043,33.0,,HP-Print-33-Deskjet 4640 series,a0:48:1c:65:96:33,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:15,OnePlus3T,32.169556,34.80036043,33.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,DanAccadia,0c:f4:d5:1b:38:e8,2452,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,DanAccadia,d8:38:fc:27:22:58,2452,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,DanAccadia,d8:38:fc:26:d2:68,2457,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,,d8:38:fc:66:d2:68,2457,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,DanAccadia,d8:38:fc:26:fd:18,2427,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:16,OnePlus3T,32.16963144,34.80037705,33.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:16Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80037705,32.16963144</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,,0c:f4:d5:5b:09:98,2472,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,stefan,e0:ce:c3:8c:2b:5a,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,DanAccadia,0c:f4:d5:1b:08:58,2467,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,DanAccadia,0c:f4:d5:1b:09:98,2472,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,DanAccadia,0c:f4:d5:1b:e1:58,2427,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:22,OnePlus3T,32.1699567,34.80047666,34.0,,phily,2c:b0:5d:40:dc:ac,2462,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:26,OnePlus3T,32.17018774,34.80057526,34.0,,Video Connection,6c:b0:ce:e8:2a:50,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80057526,32.17018774</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:21:26,OnePlus3T,32.17018774,34.80057526,34.0,,Sgreg,28:94:0f:f9:a6:d4,2417,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80057526,32.17018774</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:04,OnePlus3T,32.1701993,34.80053617,35.0,,HOTBOX-9A18,c0:ac:54:f8:0f:1f,2472,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053617,32.1701993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:04,OnePlus3T,32.1701993,34.80053617,35.0,,marcus 1,74:da:38:30:26:6f,2417,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053617,32.1701993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:04,OnePlus3T,32.1701993,34.80053617,35.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053617,32.1701993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,Rosaness,84:18:3a:1d:3b:b8,2462,-77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,daniel,e8:1d:a8:05:0c:98,2437,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,Rosaness,84:18:3a:1c:b7:18,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,hpsetup,8a:ff:b4:f8:5c:3a,2437,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,Rosaness,84:18:3a:1c:b7:1c,5300,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,HOTBOX-E8E0,6c:2e:85:fe:d2:d3,2462,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,daniel,54:e6:fc:ce:18:97,2412,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,Rosaness,84:18:3a:1c:c9:ac,5180,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:05,OnePlus3T,32.1701581,34.80052059,35.0,,Logitech,d8:38:fc:5c:e6:58,2442,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:07,OnePlus3T,32.17011184,34.80050063,36.0,,TopAudio,e4:f4:c6:4d:c7:5c,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050063,32.17011184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:07,OnePlus3T,32.17011184,34.80050063,36.0,,Bezeq Free NA1F34,72:2b:8c:99:02:06,2412,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050063,32.17011184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:07,OnePlus3T,32.17011184,34.80050063,36.0,,lazare2.4,a4:2b:8c:99:02:05,2412,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050063,32.17011184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:07,OnePlus3T,32.17011184,34.80050063,36.0,,Chenriko,c8:be:19:13:21:d6,2422,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050063,32.17011184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:14,OnePlus3T,32.17004098,34.80047126,37.0,,Sofia2.4,c4:12:f5:84:32:e0,2462,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047126,32.17004098</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:15,OnePlus3T,32.17000942,34.80046055,37.0,,TP-LINK_MENASHE,14:cc:20:93:1f:50,2462,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80046055,32.17000942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:15,OnePlus3T,32.17000942,34.80046055,37.0,,NIPPON_3575,08:97:58:32:d1:b8,2432,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80046055,32.17000942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:15,OnePlus3T,32.17000942,34.80046055,37.0,,Rosaness,84:18:3a:1c:c9:a8,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80046055,32.17000942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:21,OnePlus3T,32.16960237,34.80033535,34.0,,TREEHOUSE,c4:12:f5:7f:5a:15,2437,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:21Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80033535,32.16960237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:21,OnePlus3T,32.16960237,34.80033535,34.0,,HOTBOX2,7c:b7:33:2c:b9:21,2462,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:21Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80033535,32.16960237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,TopAudio,4c:60:de:d1:da:80,2437,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,Chana,10:be:f5:3d:80:3a,2452,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,HOTBOX-62D0,54:64:d9:66:27:79,2412,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,IIT,ec:8c:a2:a1:25:c8,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,,ec:8c:a2:61:25:c8,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,DanAccadia,d8:38:fc:26:ec:1c,5220,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,DanAccadia,ec:8c:a2:21:25:c8,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:22,OnePlus3T,32.16951178,34.80030965,34.0,,,d8:38:fc:66:ec:1c,5220,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:24,OnePlus3T,32.16932069,34.80027077,32.0,,Gold,a0:4f:d4:44:36:71,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:24Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027077,32.16932069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:24,OnePlus3T,32.16932069,34.80027077,32.0,,Yafit-10bb,a0:ab:1b:62:4d:d0,2447,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:24Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027077,32.16932069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:26,OnePlus3T,32.16913284,34.80023969,31.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80023969,32.16913284</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:27,OnePlus3T,32.1690384,34.8002272,31.0,,Sofia2.4,c4:12:f5:84:32:e0,2462,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:27Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8002272,32.1690384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:27,OnePlus3T,32.1690384,34.8002272,31.0,,TopAudio,e4:f4:c6:4d:c7:5c,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:27Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8002272,32.1690384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:27,OnePlus3T,32.1690384,34.8002272,31.0,,Bezeq Free NA1F34,72:2b:8c:99:02:06,2412,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:27Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8002272,32.1690384</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:28,OnePlus3T,32.16894933,34.80021782,31.0,,Video Connection,6c:b0:ce:e8:2a:b0,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80021782,32.16894933</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,SavantS,e4:f4:c6:d8:e8:60,2437,-70</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,0c:f4:d5:1b:08:58,2467,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,0c:f4:d5:1b:38:e8,2452,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,PELEG,14:d6:4d:f4:42:d7,2437,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,d8:38:fc:26:dc:38,2427,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,d8:38:fc:26:dd:d8,2447,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,0c:f4:d5:1b:0b:18,2427,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,,0c:f4:d5:5b:d3:88,2422,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,d8:38:fc:26:d2:68,2457,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:34,OnePlus3T,32.16859061,34.80017541,28.0,,DanAccadia,d8:38:fc:26:fb:d8,2452,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,Benhamou,c4:12:f5:f5:45:f6,2422,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,HOTBOX-62D0,54:64:d9:66:27:79,2412,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,Chana,10:be:f5:3d:80:3a,2452,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,HP-Print-45-Deskjet 4640 series,5c:b9:01:6a:8c:45,2437,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,IIT,ec:8c:a2:a1:25:c8,2437,-87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,,ec:8c:a2:61:25:c8,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,DanAccadia,d8:38:fc:26:ec:1c,5220,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,DanAccadia,ec:8c:a2:21:25:c8,2437,-88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,,d8:38:fc:66:ec:1c,5220,-89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:36,OnePlus3T,32.16846865,34.800158,28.0,,Lazar,54:e6:fc:ff:72:1f,2437,-90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:36Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.800158,32.16846865</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,BezeqFree,14:af:db:30:c9:d2,2417,-75</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,Chen,14:ae:db:30:c9:d2,2417,-75</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,island-3927A0,d4:68:4d:79:27:a3,2452,-78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,DanAccadia,d8:38:fc:26:02:98,2437,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,DanAccadia,d8:38:fc:26:ff:28,2462,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,Marine-Heights,d4:68:4d:39:3f:88,2462,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,,0c:f4:d5:5b:e1:48,2472,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,DanAccadia,0c:f4:d5:1b:d3:88,2422,-91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:37,OnePlus3T,32.1684013,34.80014633,27.0,,Ellman-2.4Ghz,04:a1:51:c4:27:6e,2437,-92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:39,OnePlus3T,32.16827167,34.80013238,26.0,,Gold,a0:4f:d4:44:36:71,2412,-85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:39Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80013238,32.16827167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:39,OnePlus3T,32.16827167,34.80013238,26.0,,Yafit-10bb,a0:ab:1b:62:4d:d0,2447,-94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:39Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80013238,32.16827167</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:42,OnePlus3T,32.16810453,34.80021113,26.0,,HOTBOX-62D0_2EX,74:da:38:a6:3c:32,2412,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:42Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80021113,32.16810453</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,Daniela,14:ae:db:32:cf:42,2442,-74</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,HP-Print-C1-Officejet Pro 8600,28:92:4a:bc:a2:c1,2412,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,DIRECT-51-HP DeskJet 4670 series,30:e1:71:f0:7b:52,2457,-79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,Happy Home Network,c0:a0:bb:cc:e2:3a,2412,-80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,Rozalin.co.il,08:5b:0e:8e:06:97,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,TNCAPE5A34D,9c:97:26:8a:43:e1,2412,-81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,DanAccadia,0c:f4:d5:1b:09:98,2472,-82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,DanAccadia,d8:38:fc:26:fd:18,2427,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,BezeqNGN_98087,4c:60:de:42:20:28,2462,-83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>2017-10-27 16:23:44,OnePlus3T,32.16806437,34.8003488,26.0,,DanAccadia,0c:f4:d5:1b:49:38,2442,-84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

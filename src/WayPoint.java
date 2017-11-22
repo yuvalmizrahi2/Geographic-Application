@@ -25,6 +25,9 @@ public class WayPoint {
 	 */
 	public WayPoint() {
 		super();
+		this.lat = new Coordinate();
+		this.lon = new Coordinate();
+		this.alt = new Coordinate();
 	}
 	/**
 	 * function that return the value of the lat

@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
+
 /**
  * A department that performs all the user interface of filter selection
  * and the data required for each filter
@@ -13,12 +14,39 @@ import java.util.Scanner;
  *
  */
 public class Gui {
+	private Scanner scanner;
 	/**
 	 * A function that calls all other functions in the class
 	 * @param samples
 	 * @return filter arraylist of samples
 	 */
-	public static ArrayList<Sample> startgui(ArrayList<Sample> samples)
+	/**
+	 * Default constructor
+	 */
+	public Gui()
+	{
+		this.scanner = new Scanner(System.in);
+	}
+	/**
+	 * function that return the value of the scanner
+	 * @return scanner
+	 */
+	public Scanner getScanner() {
+		return scanner;
+	}
+	/**
+	 * function that get scanner and change the scanner value
+	 * @param sc
+	 */
+	public void setscanner(Scanner sc) {
+		this.scanner = sc;
+	}
+	/**
+	 * function that start the Gui
+	 * @param samples
+	 * @return
+	 */
+	public ArrayList<Sample> startgui(ArrayList<Sample> samples)
 	{
 		Filter filter = choosefilter();
 		switch (filter.getFilter()) {
@@ -38,21 +66,19 @@ public class Gui {
 	 * The function asks the user to choose which filter type he wants
 	 * @return the choose number
 	 */
-	private static Filter choosefilter()
+	private Filter choosefilter()
 	{
 		Filter filter = new Filter();
 		int n;
-		Scanner sc = new Scanner(System.in);
 		System.out.println("choose a filter : ");
 		System.out.println("1. by gps");
 		System.out.println("2. by time");
 		System.out.println("3. by id");
 		System.out.println("Enter a number filter: ");
 		try {
-			n = sc.nextInt();
+			n = this.scanner.nextInt();
 			if(n > 3 || n <= 0)
 			{
-				sc.close();
 				throw new Exception("worng input");
 			}
 			else
@@ -75,7 +101,6 @@ public class Gui {
 		{
 			System.out.println(e);
 		}
-		sc.close();
 		return filter;
 	}
 	/**
@@ -83,27 +108,24 @@ public class Gui {
 	 * @param samples
 	 * @return filter arraylist of sample
 	 */
-	private static ArrayList<Sample> choosetwodate(ArrayList<Sample> samples)
+	private ArrayList<Sample> choosetwodate(ArrayList<Sample> samples)
 	{
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date[] date = {new Date() , new Date()};
-		Scanner sc = new Scanner(System.in);
 		String temp;
 		try
 		{
 			System.out.println("enter the first date in the format yyyy-MM-dd HH:mm:ss :");
-			temp = sc.next();
+			temp = this.scanner.next();
 			if(!isValidFormat(temp))
 			{
-				sc.close();
 				throw new Exception("The date is not in the correct format");
 			}
 			date[0] = df.parse(temp);
 			System.out.println("enter the second date in the format yyyy-MM-dd HH:mm:ss :");
-			temp = sc.next();
+			temp = this.scanner.next();
 			if(!isValidFormat(temp))
 			{
-				sc.close();
 				throw new Exception("The date is not in the correct format");
 			}
 			date[1] = df.parse(temp);
@@ -116,7 +138,6 @@ public class Gui {
 		{
 			System.out.println(e);
 		}
-		sc.close();
 		if(date[0].before(date[1]))
 			return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[0], date[1]));
 		return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[1], date[0]));
@@ -129,7 +150,7 @@ public class Gui {
 	private static boolean isValidFormat(String value) {
 		Date date = null;
 		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-ddTHH:mm:ssZ");
 			date = sdf.parse(value);
 			if (!value.equals(sdf.format(date))) {
 				date = null;
@@ -144,13 +165,11 @@ public class Gui {
 	 * @param samples
 	 * @return filter arraylist of sample
 	 */
-	private static ArrayList<Sample> chooseid(ArrayList<Sample> samples)
+	private ArrayList<Sample> chooseid(ArrayList<Sample> samples)
 	{
 		String id;
-		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a id : ");
-		id = sc.next();
-		sc.close();
+		id = this.scanner.next();
 		return SamplePredicates.filterSample(samples, SamplePredicates.isidequalto(id));
 	}
 	/**
@@ -158,25 +177,23 @@ public class Gui {
 	 * @param samples
 	 * @return filter arraylist of sample
 	 */
-	private static ArrayList<Sample> choosewaypointandradius(ArrayList<Sample> samples)
+	private ArrayList<Sample> choosewaypointandradius(ArrayList<Sample> samples)
 	{
 		WayPoint point = new WayPoint();
-		Scanner sc = new Scanner(System.in);
 		double radius;
 		try
 		{
 			System.out.println("enter the lat :");
-			point.getLat().setCoordinate(Double.parseDouble(sc.next()));
+			point.getLat().setCoordinate(Double.parseDouble(this.scanner.next()));
 			System.out.println("enter the lon :");
-			point.getLon().setCoordinate(Double.parseDouble(sc.next()));
+			point.getLon().setCoordinate(Double.parseDouble(this.scanner.next()));
 			System.out.println("enter the radius");
-			radius = Double.parseDouble(sc.next());
+			radius = Double.parseDouble(this.scanner.next());
 			samples = SamplePredicates.filterSample(samples, SamplePredicates.isintheradius(point, radius));
 		}
 		catch (Exception e) {
 			System.out.println("Exception thrown  :" + e);
 		}
-		sc.close();
 		return samples;
 	}
 }
