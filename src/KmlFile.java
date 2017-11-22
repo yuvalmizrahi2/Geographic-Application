@@ -101,11 +101,20 @@ public class KmlFile implements IOFile {
 			TimeStamp time = new TimeStamp();
 			DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			time.setWhen(df.format(this.files.get(i).getDate()).replaceAll(" ", "T") + "Z");
+			String sample = "Id: " + this.files.get(i).getId()
+					+ "\nDate: " +df.format(this.files.get(i).getDate())
+					+ "\nLat: " + this.files.get(i).getWaypoint().getLat().getCoordinate()
+					+ "\nLon: " + this.files.get(i).getWaypoint().getLon().getCoordinate()
+					+ "\nAlt: " + this.files.get(i).getWaypoint().getAlt().getCoordinate();
 			for(int j = 0 ; j < this.files.get(i).getArraywifi().size() ; j++)
 			{
+				String wifi = "\nSsid: " + this.files.get(i).getArraywifi().get(j).getSingal()
+						+ "\nMac: " + this.files.get(i).getArraywifi().get(j).getMac()
+						+ "\nfrequncy: " + this.files.get(i).getArraywifi().get(j).getFrequncy()
+						+ "\nSingal: " + this.files.get(i).getArraywifi().get(j).getSingal();
 				doc.createAndAddPlacemark().withName(this.files.get(i).getId())
-				.withDescription(this.files.get(i).toString()+this.files.get(i).getArraywifi().get(j).toString())
-				.withTimePrimitive(time).createAndSetPoint().addToCoordinates(this.files.get(i).getWaypoint().getLon().getCoordinate(), this.files.get(i).getWaypoint().getLat().getCoordinate());
+				.withDescription(sample + wifi).withTimePrimitive(time)
+				.createAndSetPoint().addToCoordinates(this.files.get(i).getWaypoint().getLon().getCoordinate(), this.files.get(i).getWaypoint().getLat().getCoordinate());
 			}
 		}
 		try {
