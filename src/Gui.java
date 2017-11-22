@@ -110,9 +110,9 @@ public class Gui {
 	 */
 	private ArrayList<Sample> choosetwodate(ArrayList<Sample> samples)
 	{
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date[] date = {new Date() , new Date()};
-		String temp;
+		String temp = "";
 		try
 		{
 			System.out.println("enter the first date in the format yyyy-MM-dd HH:mm:ss :");
