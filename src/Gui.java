@@ -110,24 +110,16 @@ public class Gui {
 	 */
 	private ArrayList<Sample> choosetwodate(ArrayList<Sample> samples)
 	{
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
 		Date[] date = {new Date() , new Date()};
 		String temp;
 		try
 		{
 			System.out.println("enter the first date in the format yyyy-MM-dd HH:mm:ss :");
 			temp = this.scanner.next();
-			if(!isValidFormat(temp))
-			{
-				throw new Exception("The date is not in the correct format");
-			}
 			date[0] = df.parse(temp);
 			System.out.println("enter the second date in the format yyyy-MM-dd HH:mm:ss :");
 			temp = this.scanner.next();
-			if(!isValidFormat(temp))
-			{
-				throw new Exception("The date is not in the correct format");
-			}
 			date[1] = df.parse(temp);
 
 		}
@@ -142,24 +134,6 @@ public class Gui {
 			return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[0], date[1]));
 		return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[1], date[0]));
 	}	
-	/**
-	 * A function that checks the format of the date
-	 * @param value
-	 * @return true if the date is equal to the value false if else
-	 */
-	private static boolean isValidFormat(String value) {
-		Date date = null;
-		try {
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-ddTHH:mm:ssZ");
-			date = sdf.parse(value);
-			if (!value.equals(sdf.format(date))) {
-				date = null;
-			}
-		} catch (ParseException e) {
-			System.out.println("Exception thrown  :" + e);
-		}
-		return date != null;
-	}
 	/**
 	 * A function that asks the user to enter id
 	 * @param samples
