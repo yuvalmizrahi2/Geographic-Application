@@ -117,9 +117,11 @@ public class Gui {
 		{
 			System.out.println("enter the first date in the format yyyy-MM-dd HH:mm:ss :");
 			temp = this.scanner.next();
+			temp = temp + " " + this.scanner.next();
 			date[0] = df.parse(temp);
 			System.out.println("enter the second date in the format yyyy-MM-dd HH:mm:ss :");
 			temp = this.scanner.next();
+			temp = temp + " " + this.scanner.next();
 			date[1] = df.parse(temp);
 
 		}
