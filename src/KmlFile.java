@@ -108,7 +108,7 @@ public class KmlFile implements IOFile {
 					+ "\nAlt: " + this.files.get(i).getWaypoint().getAlt().getCoordinate();
 			for(int j = 0 ; j < this.files.get(i).getArraywifi().size() ; j++)
 			{
-				String wifi = "\nSsid: " + this.files.get(i).getArraywifi().get(j).getSingal()
+				String wifi = "\nSsid: " + this.files.get(i).getArraywifi().get(j).getSsid()
 						+ "\nMac: " + this.files.get(i).getArraywifi().get(j).getMac()
 						+ "\nfrequncy: " + this.files.get(i).getArraywifi().get(j).getFrequncy()
 						+ "\nSingal: " + this.files.get(i).getArraywifi().get(j).getSingal();

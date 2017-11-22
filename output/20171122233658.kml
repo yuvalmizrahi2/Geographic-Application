@@ -1,0 +1,3119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -77
+Mac: 7c:03:4c:ba:aa:42
+frequncy: 2437
+Singal: -77</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -79
+Mac: c8:be:19:10:99:d1
+frequncy: 2437
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -81
+Mac: 04:bd:88:00:e1:40
+frequncy: 2412
+Singal: -81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -81
+Mac: 7c:b7:33:bf:bb:5f
+frequncy: 2437
+Singal: -81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -82
+Mac: 14:ae:db:c4:9f:9a
+frequncy: 2457
+Singal: -82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:49
+Lat: 32.16846448
+Lon: 34.80091936
+Alt: 32.0
+Ssid: -86
+Mac: 04:a1:51:d0:22:a6
+frequncy: 5300
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80091936,32.16846448</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:52
+Lat: 32.16849288
+Lon: 34.80064482
+Alt: 34.0
+Ssid: -83
+Mac: d0:d4:12:5c:c3:6a
+frequncy: 2462
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:52
+Lat: 32.16849288
+Lon: 34.80064482
+Alt: 34.0
+Ssid: -86
+Mac: 00:8c:54:8b:ec:e1
+frequncy: 2437
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:52
+Lat: 32.16849288
+Lon: 34.80064482
+Alt: 34.0
+Ssid: -88
+Mac: a0:63:91:78:40:b2
+frequncy: 2462
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:52
+Lat: 32.16849288
+Lon: 34.80064482
+Alt: 34.0
+Ssid: -90
+Mac: c0:d9:62:f5:17:d9
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:52
+Lat: 32.16849288
+Lon: 34.80064482
+Alt: 34.0
+Ssid: -93
+Mac: d8:fe:e3:02:d1:01
+frequncy: 2462
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80064482,32.16849288</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -79
+Mac: 14:ae:db:ba:2d:35
+frequncy: 2412
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -81
+Mac: 00:78:9e:fa:8b:23
+frequncy: 2437
+Singal: -81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -84
+Mac: d8:37:be:f1:86:c9
+frequncy: 2442
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -84
+Mac: d0:d4:12:67:a1:fa
+frequncy: 2412
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -85
+Mac: 06:ae:db:ba:2d:35
+frequncy: 2412
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -85
+Mac: a0:4f:d4:2c:5e:11
+frequncy: 2412
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:54
+Lat: 32.16851102
+Lon: 34.80047649
+Alt: 35.0
+Ssid: -87
+Mac: a0:4f:d4:2c:5e:12
+frequncy: 5260
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:54Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047649,32.16851102</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -86
+Mac: a0:0a:bf:0a:e0:16
+frequncy: 2442
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -89
+Mac: 10:0d:7f:88:fd:88
+frequncy: 2462
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -89
+Mac: 88:de:a9:bf:04:2b
+frequncy: 2462
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -90
+Mac: ec:8c:a2:a1:25:c8
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -90
+Mac: d8:38:fc:26:02:98
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:20:57
+Lat: 32.16854703
+Lon: 34.80030064
+Alt: 34.0
+Ssid: -93
+Mac: 00:21:04:e8:c5:8a
+frequncy: 2462
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:57Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030064,32.16854703</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:01
+Lat: 32.16858542
+Lon: 34.80020728
+Alt: 37.0
+Ssid: -82
+Mac: e8:fc:af:9d:69:be
+frequncy: 2412
+Singal: -82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:01
+Lat: 32.16858542
+Lon: 34.80020728
+Alt: 37.0
+Ssid: -89
+Mac: d8:38:fc:26:fd:18
+frequncy: 2427
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:01
+Lat: 32.16858542
+Lon: 34.80020728
+Alt: 37.0
+Ssid: -91
+Mac: 3c:1e:04:03:71:97
+frequncy: 2412
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:01Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020728,32.16858542</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:03
+Lat: 32.16865005
+Lon: 34.80016462
+Alt: 37.0
+Ssid: -80
+Mac: c0:ac:54:f5:b1:84
+frequncy: 2437
+Singal: -80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:03
+Lat: 32.16865005
+Lon: 34.80016462
+Alt: 37.0
+Ssid: -83
+Mac: d0:d4:12:5c:4d:4a
+frequncy: 2412
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:03
+Lat: 32.16865005
+Lon: 34.80016462
+Alt: 37.0
+Ssid: -89
+Mac: c0:ac:54:f7:3f:be
+frequncy: 2412
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80016462,32.16865005</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:06
+Lat: 32.16881248
+Lon: 34.80015942
+Alt: 36.0
+Ssid: -92
+Mac: 6c:b0:ce:e8:29:c0
+frequncy: 2462
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:06Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80015942,32.16881248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:08
+Lat: 32.16895206
+Lon: 34.80017686
+Alt: 38.0
+Ssid: -96
+Mac: 14:ae:db:32:cf:42
+frequncy: 2442
+Singal: -96</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:08Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017686,32.16895206</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:11
+Lat: 32.1692159
+Lon: 34.80022603
+Alt: 35.0
+Ssid: -86
+Mac: 54:e6:fc:b5:14:c2
+frequncy: 2452
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:11
+Lat: 32.1692159
+Lon: 34.80022603
+Alt: 35.0
+Ssid: -88
+Mac: 6c:b0:ce:e8:2a:50
+frequncy: 2412
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:11
+Lat: 32.1692159
+Lon: 34.80022603
+Alt: 35.0
+Ssid: -91
+Mac: 74:da:38:30:26:6f
+frequncy: 2417
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:11
+Lat: 32.1692159
+Lon: 34.80022603
+Alt: 35.0
+Ssid: -92
+Mac: d4:68:4d:79:27:a3
+frequncy: 2452
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:11Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022603,32.1692159</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:14
+Lat: 32.16947007
+Lon: 34.80029112
+Alt: 35.0
+Ssid: -89
+Mac: 54:64:d9:66:27:79
+frequncy: 2412
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:14
+Lat: 32.16947007
+Lon: 34.80029112
+Alt: 35.0
+Ssid: -90
+Mac: 5c:b9:01:6a:8c:45
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:14
+Lat: 32.16947007
+Lon: 34.80029112
+Alt: 35.0
+Ssid: -92
+Mac: 54:e6:fc:cc:5a:b8
+frequncy: 2462
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:14
+Lat: 32.16947007
+Lon: 34.80029112
+Alt: 35.0
+Ssid: -92
+Mac: bc:f6:85:0d:5b:c0
+frequncy: 2437
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80029112,32.16947007</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:17
+Lat: 32.16970586
+Lon: 34.8003408
+Alt: 38.0
+Ssid: -82
+Mac: 0c:f4:d5:1b:3f:68
+frequncy: 2462
+Singal: -82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:17
+Lat: 32.16970586
+Lon: 34.8003408
+Alt: 38.0
+Ssid: -87
+Mac: 62:fc:af:9d:69:bf
+frequncy: 2412
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:17
+Lat: 32.16970586
+Lon: 34.8003408
+Alt: 38.0
+Ssid: -91
+Mac: d4:68:4d:39:23:b8
+frequncy: 2462
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003408,32.16970586</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:20
+Lat: 32.1698537
+Lon: 34.80041581
+Alt: 35.0
+Ssid: -88
+Mac: 74:da:38:a6:3c:32
+frequncy: 2412
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:20
+Lat: 32.1698537
+Lon: 34.80041581
+Alt: 35.0
+Ssid: -89
+Mac: c0:ac:54:f7:c6:78
+frequncy: 2437
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:20
+Lat: 32.1698537
+Lon: 34.80041581
+Alt: 35.0
+Ssid: -92
+Mac: 6c:b0:ce:e8:2a:b0
+frequncy: 2412
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:20
+Lat: 32.1698537
+Lon: 34.80041581
+Alt: 35.0
+Ssid: -92
+Mac: 04:a1:51:2f:f2:be
+frequncy: 2437
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:20
+Lat: 32.1698537
+Lon: 34.80041581
+Alt: 35.0
+Ssid: -94
+Mac: 1c:5f:2b:91:45:b1
+frequncy: 2412
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041581,32.1698537</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:23
+Lat: 32.16999698
+Lon: 34.80047799
+Alt: 33.0
+Ssid: -98
+Mac: c8:be:19:13:21:d6
+frequncy: 2422
+Singal: -98</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:23Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047799,32.16999698</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:26
+Lat: 32.17015135
+Lon: 34.80053822
+Alt: 30.0
+Ssid: -88
+Mac: 98:e7:f4:42:4e:d9
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:26
+Lat: 32.17015135
+Lon: 34.80053822
+Alt: 30.0
+Ssid: -93
+Mac: 40:65:a3:2d:81:47
+frequncy: 2412
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:21:26
+Lat: 32.17015135
+Lon: 34.80053822
+Alt: 30.0
+Ssid: -96
+Mac: 84:18:3a:1c:b7:18
+frequncy: 2412
+Singal: -96</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:26Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053822,32.17015135</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -78
+Mac: c0:ac:54:f8:57:42
+frequncy: 2452
+Singal: -78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -84
+Mac: 54:e6:fc:b5:39:9e
+frequncy: 2462
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -84
+Mac: f0:7d:68:17:cd:fa
+frequncy: 2437
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -84
+Mac: 14:ae:db:c1:73:25
+frequncy: 2437
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -85
+Mac: e8:1d:a8:05:01:58
+frequncy: 2427
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -85
+Mac: 14:ae:db:b7:a6:05
+frequncy: 2437
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -86
+Mac: d8:38:fc:1c:e6:58
+frequncy: 2442
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -87
+Mac: e8:1d:a8:04:fd:f8
+frequncy: 2412
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -88
+Mac: a0:4f:d4:3e:7c:31
+frequncy: 2412
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:04
+Lat: 32.17014829
+Lon: 34.80053654
+Alt: 33.0
+Ssid: -88
+Mac: e8:1d:a8:04:fc:08
+frequncy: 2462
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053654,32.17014829</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -80
+Mac: e8:1d:a8:05:0c:98
+frequncy: 2437
+Singal: -80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -83
+Mac: 84:18:3a:1d:3b:b8
+frequncy: 2462
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -86
+Mac: e8:1d:a8:04:fb:e8
+frequncy: 2437
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -88
+Mac: e8:1d:a8:04:fa:68
+frequncy: 2462
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -89
+Mac: 84:18:3a:1c:c9:a8
+frequncy: 2412
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -93
+Mac: 10:be:f5:3d:80:3a
+frequncy: 2452
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:07
+Lat: 32.17006781
+Lon: 34.80050789
+Alt: 33.0
+Ssid: -94
+Mac: 60:e3:27:9e:8a:ea
+frequncy: 2462
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050789,32.17006781</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:10
+Lat: 32.17004183
+Lon: 34.80050113
+Alt: 33.0
+Ssid: -91
+Mac: a4:2b:8c:99:02:05
+frequncy: 2412
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050113,32.17004183</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:13
+Lat: 32.17003707
+Lon: 34.80050995
+Alt: 33.0
+Ssid: -91
+Mac: d8:38:fc:66:02:98
+frequncy: 2437
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:13Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050995,32.17003707</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:17
+Lat: 32.16991686
+Lon: 34.80048569
+Alt: 31.0
+Ssid: -94
+Mac: 30:e1:71:f0:7b:52
+frequncy: 2457
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:17Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80048569,32.16991686</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:20
+Lat: 32.16971928
+Lon: 34.80041492
+Alt: 30.0
+Ssid: -87
+Mac: 74:ea:3a:e5:4f:02
+frequncy: 2437
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041492,32.16971928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:20
+Lat: 32.16971928
+Lon: 34.80041492
+Alt: 30.0
+Ssid: -94
+Mac: 84:34:97:ac:a1:5c
+frequncy: 2412
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:20Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80041492,32.16971928</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:22
+Lat: 32.16953355
+Lon: 34.80035958
+Alt: 30.0
+Ssid: -92
+Mac: 72:2b:8c:99:02:06
+frequncy: 2412
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:22
+Lat: 32.16953355
+Lon: 34.80035958
+Alt: 30.0
+Ssid: -93
+Mac: c4:12:f5:f5:45:f6
+frequncy: 2422
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80035958,32.16953355</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:25
+Lat: 32.16925266
+Lon: 34.80028248
+Alt: 25.0
+Ssid: -90
+Mac: 0c:f4:d5:1b:49:38
+frequncy: 2442
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:25
+Lat: 32.16925266
+Lon: 34.80028248
+Alt: 25.0
+Ssid: -91
+Mac: a0:48:1c:65:96:33
+frequncy: 2412
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:25Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80028248,32.16925266</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:28
+Lat: 32.16896675
+Lon: 34.80022497
+Alt: 25.0
+Ssid: -84
+Mac: e0:8f:ec:05:fb:f7
+frequncy: 2437
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:28
+Lat: 32.16896675
+Lon: 34.80022497
+Alt: 25.0
+Ssid: -88
+Mac: e8:d1:1b:71:e6:9e
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:28
+Lat: 32.16896675
+Lon: 34.80022497
+Alt: 25.0
+Ssid: -90
+Mac: a0:4f:d4:44:36:71
+frequncy: 2412
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:28
+Lat: 32.16896675
+Lon: 34.80022497
+Alt: 25.0
+Ssid: -93
+Mac: 62:a3:86:0a:53:52
+frequncy: 2437
+Singal: -93</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:28Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80022497,32.16896675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -85
+Mac: b4:ee:b4:a7:3e:03
+frequncy: 2412
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -86
+Mac: d8:38:fc:26:dc:38
+frequncy: 2427
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -87
+Mac: 4c:60:de:42:20:28
+frequncy: 2462
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -88
+Mac: fa:8f:ca:67:d0:69
+frequncy: 2422
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -89
+Mac: d8:38:fc:66:dc:38
+frequncy: 2427
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -90
+Mac: 62:ff:d4:7a:ac:3a
+frequncy: 2462
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:31
+Lat: 32.16873071
+Lon: 34.8001699
+Alt: 25.0
+Ssid: -90
+Mac: d8:38:fc:25:9d:28
+frequncy: 2427
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:31Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8001699,32.16873071</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:34
+Lat: 32.16857669
+Lon: 34.80014154
+Alt: 27.0
+Ssid: -90
+Mac: 54:e6:fc:ff:72:1f
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:34
+Lat: 32.16857669
+Lon: 34.80014154
+Alt: 27.0
+Ssid: -92
+Mac: 90:6c:ac:a9:dd:ba
+frequncy: 2462
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014154,32.16857669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:37
+Lat: 32.16840058
+Lon: 34.80011614
+Alt: 28.0
+Ssid: -86
+Mac: 0c:f4:d5:5b:d8:38
+frequncy: 2412
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:37
+Lat: 32.16840058
+Lon: 34.80011614
+Alt: 28.0
+Ssid: -88
+Mac: d8:38:fc:65:9d:28
+frequncy: 2427
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:37
+Lat: 32.16840058
+Lon: 34.80011614
+Alt: 28.0
+Ssid: -88
+Mac: 9c:97:26:8a:43:e1
+frequncy: 2412
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:37
+Lat: 32.16840058
+Lon: 34.80011614
+Alt: 28.0
+Ssid: -90
+Mac: d8:38:fc:26:dd:d8
+frequncy: 2447
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80011614,32.16840058</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:40
+Lat: 32.16820938
+Lon: 34.80009418
+Alt: 26.0
+Ssid: -83
+Mac: 08:5b:0e:8e:06:97
+frequncy: 2412
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:40
+Lat: 32.16820938
+Lon: 34.80009418
+Alt: 26.0
+Ssid: -88
+Mac: d8:38:fc:66:dd:d8
+frequncy: 2447
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:40
+Lat: 32.16820938
+Lon: 34.80009418
+Alt: 26.0
+Ssid: -91
+Mac: 84:34:97:1c:cd:99
+frequncy: 2437
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:40Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80009418,32.16820938</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -83
+Mac: 0c:f4:d5:1b:d7:a8
+frequncy: 2412
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -86
+Mac: 0c:f4:d5:1b:0b:18
+frequncy: 2427
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -88
+Mac: d8:38:fc:68:24:7c
+frequncy: 5220
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -88
+Mac: d8:38:fc:28:24:7c
+frequncy: 5220
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -90
+Mac: d8:38:fc:68:18:58
+frequncy: 2437
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:43
+Lat: 32.16806164
+Lon: 34.80020374
+Alt: 28.0
+Ssid: -91
+Mac: 0c:f4:d5:5b:09:9c
+frequncy: 5290
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:43Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80020374,32.16806164</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:46
+Lat: 32.16801984
+Lon: 34.80044722
+Alt: 27.0
+Ssid: -87
+Mac: 00:8c:54:91:22:f1
+frequncy: 2412
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:46
+Lat: 32.16801984
+Lon: 34.80044722
+Alt: 27.0
+Ssid: -92
+Mac: 1c:af:f7:6f:07:93
+frequncy: 2437
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:46
+Lat: 32.16801984
+Lon: 34.80044722
+Alt: 27.0
+Ssid: -94
+Mac: 0c:f4:d5:5b:49:38
+frequncy: 2442
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:46Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80044722,32.16801984</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -74
+Mac: 90:8d:78:e4:ab:7f
+frequncy: 2462
+Singal: -74</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -76
+Mac: 14:ae:db:cb:03:05
+frequncy: 2462
+Singal: -76</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -79
+Mac: c0:ac:54:f8:ea:e1
+frequncy: 2412
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -81
+Mac: f8:e9:03:11:e0:d8
+frequncy: 2412
+Singal: -81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -84
+Mac: 48:ee:0c:3d:53:f3
+frequncy: 2452
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -84
+Mac: 7c:b7:33:ea:b3:b4
+frequncy: 2417
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -86
+Mac: ac:3f:a4:85:29:d8
+frequncy: 2412
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PB2PRO</name>
+            <description>Id: PB2PRO
+Date: 2017-10-27 16:23:49
+Lat: 32.16798596
+Lon: 34.80081806
+Alt: 26.0
+Ssid: -88
+Mac: 30:46:9a:2c:3d:94
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:49Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80081806,32.16798596</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:51
+Lat: 32.16847482
+Lon: 34.80076466
+Alt: 32.0
+Ssid: -79
+Mac: 70:62:b8:30:db:f8
+frequncy: 2412
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:51
+Lat: 32.16847482
+Lon: 34.80076466
+Alt: 32.0
+Ssid: -84
+Mac: 9c:d6:43:23:0c:9c
+frequncy: 2437
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:51
+Lat: 32.16847482
+Lon: 34.80076466
+Alt: 32.0
+Ssid: -85
+Mac: 04:a1:51:d0:22:a5
+frequncy: 2422
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:51
+Lat: 32.16847482
+Lon: 34.80076466
+Alt: 32.0
+Ssid: -91
+Mac: 14:ae:db:30:c9:d5
+frequncy: 5240
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:51Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80076466,32.16847482</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:52
+Lat: 32.16848744
+Lon: 34.80067508
+Alt: 32.0
+Ssid: -78
+Mac: 00:23:cd:16:9e:e0
+frequncy: 2437
+Singal: -78</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:52
+Lat: 32.16848744
+Lon: 34.80067508
+Alt: 32.0
+Ssid: -79
+Mac: 3c:1e:04:05:ad:17
+frequncy: 2462
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:52
+Lat: 32.16848744
+Lon: 34.80067508
+Alt: 32.0
+Ssid: -80
+Mac: 30:e1:71:08:ae:c7
+frequncy: 2437
+Singal: -80</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:52
+Lat: 32.16848744
+Lon: 34.80067508
+Alt: 32.0
+Ssid: -81
+Mac: e8:cc:18:ec:a6:64
+frequncy: 2437
+Singal: -81</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:52
+Lat: 32.16848744
+Lon: 34.80067508
+Alt: 32.0
+Ssid: -84
+Mac: f8:ab:05:46:d5:5e
+frequncy: 2412
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:52Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80067508,32.16848744</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:53
+Lat: 32.16849248
+Lon: 34.80059962
+Alt: 31.0
+Ssid: -82
+Mac: 6c:b0:ce:33:a4:d5
+frequncy: 2412
+Singal: -82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:53Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80059962,32.16849248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:20:53
+Lat: 32.16849248
+Lon: 34.80059962
+Alt: 31.0
+Ssid: -89
+Mac: 00:1b:9e:7a:43:13
+frequncy: 2437
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:20:53Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80059962,32.16849248</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:02
+Lat: 32.16859445
+Lon: 34.80025492
+Alt: 29.0
+Ssid: -86
+Mac: e4:f4:c6:d8:e8:60
+frequncy: 2437
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:02
+Lat: 32.16859445
+Lon: 34.80025492
+Alt: 29.0
+Ssid: -86
+Mac: d8:38:fc:27:22:58
+frequncy: 2452
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:02
+Lat: 32.16859445
+Lon: 34.80025492
+Alt: 29.0
+Ssid: -89
+Mac: d8:38:fc:66:d2:68
+frequncy: 2457
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:02
+Lat: 32.16859445
+Lon: 34.80025492
+Alt: 29.0
+Ssid: -91
+Mac: c0:a0:bb:cc:e2:3a
+frequncy: 2412
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:02
+Lat: 32.16859445
+Lon: 34.80025492
+Alt: 29.0
+Ssid: -95
+Mac: e0:ce:c3:8c:2b:5a
+frequncy: 2437
+Singal: -95</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:02Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80025492,32.16859445</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:03
+Lat: 32.16863449
+Lon: 34.80024121
+Alt: 29.0
+Ssid: -90
+Mac: a4:2b:8c:98:db:d2
+frequncy: 2412
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:03Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024121,32.16863449</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:07
+Lat: 32.16888669
+Lon: 34.80024686
+Alt: 30.0
+Ssid: -85
+Mac: 0c:f4:d5:5b:09:98
+frequncy: 2472
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:07
+Lat: 32.16888669
+Lon: 34.80024686
+Alt: 30.0
+Ssid: -88
+Mac: 0c:f4:d5:1b:08:58
+frequncy: 2467
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:07
+Lat: 32.16888669
+Lon: 34.80024686
+Alt: 30.0
+Ssid: -88
+Mac: 0c:f4:d5:1b:09:98
+frequncy: 2472
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80024686,32.16888669</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:10
+Lat: 32.16913213
+Lon: 34.80027706
+Alt: 32.0
+Ssid: -87
+Mac: 6c:b0:ce:e8:2e:50
+frequncy: 2437
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027706,32.16913213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:10
+Lat: 32.16913213
+Lon: 34.80027706
+Alt: 32.0
+Ssid: -87
+Mac: 28:94:0f:f9:a6:d4
+frequncy: 2417
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:10Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027706,32.16913213</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:12
+Lat: 32.16930276
+Lon: 34.80030556
+Alt: 32.0
+Ssid: -89
+Mac: 00:78:9e:fa:33:72
+frequncy: 2412
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:12Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030556,32.16930276</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:15
+Lat: 32.169556
+Lon: 34.80036043
+Alt: 33.0
+Ssid: -86
+Mac: 14:af:db:30:c9:d2
+frequncy: 2417
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:15
+Lat: 32.169556
+Lon: 34.80036043
+Alt: 33.0
+Ssid: -87
+Mac: 70:62:b8:30:f8:4e
+frequncy: 2412
+Singal: -87</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:15
+Lat: 32.169556
+Lon: 34.80036043
+Alt: 33.0
+Ssid: -88
+Mac: 14:ae:db:30:c9:d2
+frequncy: 2417
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80036043,32.169556</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:22
+Lat: 32.1699567
+Lon: 34.80047666
+Alt: 34.0
+Ssid: -89
+Mac: 0c:f4:d5:1b:e1:58
+frequncy: 2427
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:21:22
+Lat: 32.1699567
+Lon: 34.80047666
+Alt: 34.0
+Ssid: -94
+Mac: 2c:b0:5d:40:dc:ac
+frequncy: 2462
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:21:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047666,32.1699567</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:04
+Lat: 32.1701993
+Lon: 34.80053617
+Alt: 35.0
+Ssid: -84
+Mac: c0:ac:54:f8:0f:1f
+frequncy: 2472
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:04Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80053617,32.1701993</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -85
+Mac: 8a:ff:b4:f8:5c:3a
+frequncy: 2437
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -88
+Mac: 84:18:3a:1c:b7:1c
+frequncy: 5300
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -89
+Mac: 6c:2e:85:fe:d2:d3
+frequncy: 2462
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -89
+Mac: 54:e6:fc:ce:18:97
+frequncy: 2412
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -90
+Mac: 84:18:3a:1c:c9:ac
+frequncy: 5180
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:05
+Lat: 32.1701581
+Lon: 34.80052059
+Alt: 35.0
+Ssid: -90
+Mac: d8:38:fc:5c:e6:58
+frequncy: 2442
+Singal: -90</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:05Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80052059,32.1701581</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:07
+Lat: 32.17011184
+Lon: 34.80050063
+Alt: 36.0
+Ssid: -88
+Mac: e4:f4:c6:4d:c7:5c
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:07Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80050063,32.17011184</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:14
+Lat: 32.17004098
+Lon: 34.80047126
+Alt: 37.0
+Ssid: -86
+Mac: c4:12:f5:84:32:e0
+frequncy: 2462
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:14Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80047126,32.17004098</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:15
+Lat: 32.17000942
+Lon: 34.80046055
+Alt: 37.0
+Ssid: -84
+Mac: 14:cc:20:93:1f:50
+frequncy: 2462
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80046055,32.17000942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:15
+Lat: 32.17000942
+Lon: 34.80046055
+Alt: 37.0
+Ssid: -86
+Mac: 08:97:58:32:d1:b8
+frequncy: 2432
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:15Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80046055,32.17000942</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:21
+Lat: 32.16960237
+Lon: 34.80033535
+Alt: 34.0
+Ssid: -89
+Mac: c4:12:f5:7f:5a:15
+frequncy: 2437
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:21Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80033535,32.16960237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:21
+Lat: 32.16960237
+Lon: 34.80033535
+Alt: 34.0
+Ssid: -92
+Mac: 7c:b7:33:2c:b9:21
+frequncy: 2462
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:21Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80033535,32.16960237</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:22
+Lat: 32.16951178
+Lon: 34.80030965
+Alt: 34.0
+Ssid: -82
+Mac: 4c:60:de:d1:da:80
+frequncy: 2437
+Singal: -82</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:22
+Lat: 32.16951178
+Lon: 34.80030965
+Alt: 34.0
+Ssid: -88
+Mac: ec:8c:a2:61:25:c8
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:22
+Lat: 32.16951178
+Lon: 34.80030965
+Alt: 34.0
+Ssid: -88
+Mac: d8:38:fc:26:ec:1c
+frequncy: 5220
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:22
+Lat: 32.16951178
+Lon: 34.80030965
+Alt: 34.0
+Ssid: -88
+Mac: ec:8c:a2:21:25:c8
+frequncy: 2437
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:22
+Lat: 32.16951178
+Lon: 34.80030965
+Alt: 34.0
+Ssid: -89
+Mac: d8:38:fc:66:ec:1c
+frequncy: 5220
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:22Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80030965,32.16951178</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:24
+Lat: 32.16932069
+Lon: 34.80027077
+Alt: 32.0
+Ssid: -94
+Mac: a0:ab:1b:62:4d:d0
+frequncy: 2447
+Singal: -94</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:24Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80027077,32.16932069</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:34
+Lat: 32.16859061
+Lon: 34.80017541
+Alt: 28.0
+Ssid: -84
+Mac: 0c:f4:d5:1b:38:e8
+frequncy: 2452
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:34
+Lat: 32.16859061
+Lon: 34.80017541
+Alt: 28.0
+Ssid: -84
+Mac: 14:d6:4d:f4:42:d7
+frequncy: 2437
+Singal: -84</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:34
+Lat: 32.16859061
+Lon: 34.80017541
+Alt: 28.0
+Ssid: -88
+Mac: 0c:f4:d5:5b:d3:88
+frequncy: 2422
+Singal: -88</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:34
+Lat: 32.16859061
+Lon: 34.80017541
+Alt: 28.0
+Ssid: -89
+Mac: d8:38:fc:26:d2:68
+frequncy: 2457
+Singal: -89</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:34
+Lat: 32.16859061
+Lon: 34.80017541
+Alt: 28.0
+Ssid: -91
+Mac: d8:38:fc:26:fb:d8
+frequncy: 2452
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:34Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80017541,32.16859061</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:37
+Lat: 32.1684013
+Lon: 34.80014633
+Alt: 27.0
+Ssid: -83
+Mac: d8:38:fc:26:ff:28
+frequncy: 2462
+Singal: -83</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:37
+Lat: 32.1684013
+Lon: 34.80014633
+Alt: 27.0
+Ssid: -85
+Mac: d4:68:4d:39:3f:88
+frequncy: 2462
+Singal: -85</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:37
+Lat: 32.1684013
+Lon: 34.80014633
+Alt: 27.0
+Ssid: -86
+Mac: 0c:f4:d5:5b:e1:48
+frequncy: 2472
+Singal: -86</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:37
+Lat: 32.1684013
+Lon: 34.80014633
+Alt: 27.0
+Ssid: -91
+Mac: 0c:f4:d5:1b:d3:88
+frequncy: 2422
+Singal: -91</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:37
+Lat: 32.1684013
+Lon: 34.80014633
+Alt: 27.0
+Ssid: -92
+Mac: 04:a1:51:c4:27:6e
+frequncy: 2437
+Singal: -92</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:37Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.80014633,32.1684013</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OnePlus3T</name>
+            <description>Id: OnePlus3T
+Date: 2017-10-27 16:23:44
+Lat: 32.16806437
+Lon: 34.8003488
+Alt: 26.0
+Ssid: -79
+Mac: 28:92:4a:bc:a2:c1
+frequncy: 2412
+Singal: -79</description>
+            <TimeStamp>
+                <when>2017-10-27T16:23:44Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>34.8003488,32.16806437</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

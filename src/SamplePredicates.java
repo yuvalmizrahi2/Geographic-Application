@@ -48,7 +48,7 @@ public class SamplePredicates {
 	 */
 	public static ArrayList<Sample> filterSample(ArrayList<Sample> samples , Predicate<Sample> predicate)
 	{
-		return (ArrayList<Sample>) samples.stream().filter(predicate).collect(Collectors.<Sample>toList());
+		return replicateMac((ArrayList<Sample>) samples.stream().filter(predicate).collect(Collectors.<Sample>toList()));
 	}
 	/**
 	 * A function that receives an array of samples
@@ -59,7 +59,24 @@ public class SamplePredicates {
 	 */
 	public static ArrayList<Sample> replicateMac(ArrayList<Sample> samples)
 	{
-		
+		int index;
+		for(int i = 0; i < samples.size() ; i++)
+		{
+			for(int j = 0; j < samples.get(i).getArraywifi().size() ; j++)
+			{
+				for(int k = 0; k < samples.size() ; k++)
+				{
+					if(k != i && samples.get(k).getArraywifi().contains(samples.get(i).getArraywifi().get(j)))
+					{
+						index = samples.get(k).getArraywifi().indexOf(samples.get(i).getArraywifi().get(j));
+						if(samples.get(i).getArraywifi().get(j).compareTo(samples.get(k).getArraywifi().get(index)) >= 0)
+						{
+							samples.get(k).getArraywifi().remove(index);
+						}
+					}
+				}
+			}
+		}
 		return samples;
 	}
 
