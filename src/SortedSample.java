@@ -21,7 +21,7 @@ public class SortedSample
 	 * @param date
 	 * @return date in format yyyy-MM-dd HH:mm:ss
 	 */
-	private static String changeforamt(String date)
+	public static String changeforamt(String date)
 	{
 		date = date.replaceAll("/", "-");
 		if(date.split(" ")[0].split("-")[0].length() == 2)
