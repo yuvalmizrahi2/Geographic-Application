@@ -1,4 +1,4 @@
-#  Task1
+#  Oop Project
 ## Sample 
 In order to accomplish the assignment, we did several tests:
 1. On Friday the 3rd of November 2017 between 8:30-9:00 am in Center G, Kfar sava.
