@@ -1,3 +1,4 @@
+package classes;
 
 /**
  * A class that stores all the coordinates of the sample

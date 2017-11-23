@@ -1,3 +1,4 @@
+package classes;
 
 /**
  * A class containing all wifi data collected 

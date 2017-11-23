@@ -1,3 +1,4 @@
+package classes;
 
 /**
  * A class that preserves the type of filtering it chooses

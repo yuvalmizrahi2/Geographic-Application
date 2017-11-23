@@ -1,3 +1,4 @@
+package classes;
 
 /**
  * enum that contains the names of the existing filter types
