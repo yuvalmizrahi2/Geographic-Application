@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 /**
  * A class that receives a folder and collects the samples from each file
@@ -61,6 +62,7 @@ public class CsvFiles implements IOFile
 	{
 		String namefile = getcurrenttime();
 		readfile(this.path);
+		Collections.sort(this.files);
 		writefile(namefile+".csv");
 		KmlFile kml = new KmlFile(namefile+".csv");
 		kml.writefile(namefile+".kml");

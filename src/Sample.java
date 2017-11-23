@@ -8,7 +8,7 @@ import java.util.Date;
  * @author יובל מזרחי
  *
  */
-public class Sample {
+public class Sample implements Comparable<Sample> {
 	private String id;
 	private WayPoint Waypoint;
 	private Date date;
@@ -88,6 +88,13 @@ public class Sample {
 		Sample sample = (Sample)temp;
 		return this.Waypoint.equals(sample.Waypoint) &&
 				this.date.equals(sample.date);
+	}
+	/**
+	 * A function that compare two samples by their date
+	 */
+	@Override
+	public int compareTo(Sample o) {
+		return this.date.compareTo(o.date);
 	}
 	/**
 	 * A function that print the details of the sample
