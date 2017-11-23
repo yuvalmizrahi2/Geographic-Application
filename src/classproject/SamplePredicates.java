@@ -1,4 +1,4 @@
-package projectcalss;
+package classproject;
 
 import java.awt.geom.Point2D;
 import java.util.ArrayList;

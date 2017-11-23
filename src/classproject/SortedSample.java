@@ -1,4 +1,4 @@
-package projectcalss;
+package classproject;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

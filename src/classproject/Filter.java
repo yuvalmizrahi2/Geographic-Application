@@ -1,4 +1,4 @@
-package projectcalss;
+package classproject;
 
 /**
  * A class that preserves the type of filtering it chooses
