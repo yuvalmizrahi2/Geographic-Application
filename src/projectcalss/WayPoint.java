@@ -1,3 +1,4 @@
+package projectcalss;
 
 /**
  * A class that stores all the coordinates of the sample

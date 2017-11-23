@@ -1,3 +1,4 @@
+package projectcalss;
 
 /**
  * enum that contains the names of the existing filter types

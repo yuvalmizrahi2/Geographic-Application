@@ -1,3 +1,4 @@
+package projectcalss;
 
 /**
  * A class containing all wifi data collected 

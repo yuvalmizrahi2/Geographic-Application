@@ -1,3 +1,4 @@
+package projectcalss;
 /**
  * A class that contain the value of the coordinate 
  * @author יובל מזרחי
