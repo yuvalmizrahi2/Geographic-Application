@@ -10,7 +10,7 @@ class SortedSampleTest {
 	@Test
 	void testChangeforamt() {
 		String date1="27/10/2017 16:12:01"; 
-		SortedSample.changeforamt(date1);
+		date1 = SortedSample.changeforamt(date1);
 		String date2="2017-10-27 16:12:01";
 		assertTrue(date1.equals(date2));
 	}

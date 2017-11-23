@@ -13,7 +13,7 @@ class CsvFilesTest {
 	void testreadfile1() {
 		CsvFiles c=new CsvFiles("C:\\test\\file\\check"); ///check small file with filter
 		c.readfile();
-		assertTrue(c.getFiles().size()==2);
+		assertTrue(c.getFiles().size()==1);
 
 	}
 
