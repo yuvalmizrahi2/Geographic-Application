@@ -19,6 +19,7 @@ public class CsvFiles implements IOFile
 {
 	private ArrayList<Sample> files;
 	private String path;
+	private String outfilename;
 	/**
 	 * A constructor that receives the parameter path
 	 * @param path
@@ -26,6 +27,7 @@ public class CsvFiles implements IOFile
 	public CsvFiles(String path) {
 		this.files = new ArrayList<>();
 		this.path = path;
+		readfile();
 	}
 	/**
 	 * function that return the value of the arraylist<sample>
@@ -56,6 +58,20 @@ public class CsvFiles implements IOFile
 		this.path = path;
 	}
 	/**
+	 * function that return the value of the outfilename
+	 * @return
+	 */
+	public String getOutfilename() {
+		return outfilename;
+	}
+	/**
+	 * function that get name and change the path outfilename
+	 * @param outfilename
+	 */
+	public void setOutfilename(String outfilename) {
+		this.outfilename = outfilename;
+	}
+	/**
 	 * Shell function for the function readfile(string path) 
 	 */
 	@Override
@@ -65,8 +81,8 @@ public class CsvFiles implements IOFile
 		readfile(this.path);
 		Collections.sort(this.files);
 		writefile(namefile+".csv");
-		KmlFile kml = new KmlFile(namefile+".csv");
-		kml.writefile(namefile+".kml");
+		this.outfilename = namefile;
+
 	}
 	/**
 	 * A function that accepts the entire sample collection and writes it to a csv file

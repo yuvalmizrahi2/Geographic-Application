@@ -1,7 +1,7 @@
 package classproject;
-public class test {
+public class Main {
 	public static void main(String[] args) {
 		CsvFiles files = new CsvFiles("C:\\test");
-		files.readfile();
+		KmlFile kml = new KmlFile(files.getOutfilename()+".csv");
 	}
 }
