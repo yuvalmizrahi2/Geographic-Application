@@ -1,13 +1,7 @@
 package classproject;
 
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 /**
  * A class that receives a folder and collects the samples from each file
@@ -15,7 +9,7 @@ import java.util.Date;
  * @author יובל מזרחי
  *
  */
-public class CsvFiles implements IOFile
+public class CsvFiles
 {
 	private ArrayList<Sample> files;
 	private String path;
@@ -25,9 +19,10 @@ public class CsvFiles implements IOFile
 	 * @param path
 	 */
 	public CsvFiles(String path) {
-		this.files = new ArrayList<>();
 		this.path = path;
-		readfile();
+		this.files = IOCsvFile.readfile(this.path);
+		this.outfilename = getcurrenttime();
+		IOCsvFile.writefile(this.outfilename+".csv" , this.files);
 	}
 	/**
 	 * function that return the value of the arraylist<sample>
@@ -70,76 +65,6 @@ public class CsvFiles implements IOFile
 	 */
 	public void setOutfilename(String outfilename) {
 		this.outfilename = outfilename;
-	}
-	/**
-	 * Shell function for the function readfile(string path) 
-	 */
-	@Override
-	public void readfile() 
-	{
-		String namefile = getcurrenttime();
-		readfile(this.path);
-		Collections.sort(this.files);
-		writefile(namefile+".csv");
-		this.outfilename = namefile;
-
-	}
-	/**
-	 * A function that accepts the entire sample collection and writes it to a csv file
-	 */
-	@Override
-	public void writefile(String filename) {
-		FileWriter fw = null;
-		PrintWriter outs = null;
-		try {
-			fw = new FileWriter("output/"+filename);
-			outs = new PrintWriter(fw);
-			outs.print("Date,ID,Lat,Lon,Alt,#WiFi networks");
-			for(int i = 1 ; i <= 10 ; i++)
-			{
-				outs.print(",SSID"+i+",MAC"+i+",Frequncy"+i+",Signal"+i);
-			}	
-			outs.println();
-			for(int i = 0; i < this.files.size() ; i++)
-			{
-				if(this.files.get(i).getArraywifi().size() != 0)
-				{
-					outs.print(this.files.get(i).toString());
-					outs.print(Math.min(10, this.files.get(i).getArraywifi().size()));
-					for(int j = 0; j < Math.min(10, this.files.get(i).getArraywifi().size()) ; j++ )
-					{
-						outs.print(this.files.get(i).getArraywifi().get(j).toString());
-					}
-					outs.println();
-				}
-			}
-			outs.close();
-			fw.close();
-		} catch (IOException e) {
-			System.out.println("Exception thrown  :" + e);
-		}
-	}
-	/**
-	 * A function that accepts a path and passes a file file recursively
-	 * and reads each file and takes the samples
-	 * @param path
-	 */
-	private void readfile(String path) 
-	{
-		File folder = new File(path);
-		File[] listOfFiles = folder.listFiles();
-		for(int i = 0 ; i < listOfFiles.length ; i++)
-		{
-			if(listOfFiles[i].isFile())
-			{
-				this.files.addAll(SortedSample.readfile(listOfFiles[i].getPath()));
-			}
-			else if(listOfFiles[i].isDirectory())
-			{
-				readfile(listOfFiles[i].getPath());
-			}
-		}
-
 	}
 	/**
 	 * A function that returns the current time

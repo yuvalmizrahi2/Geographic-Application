@@ -1,5 +1,8 @@
 package classproject;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -16,7 +19,7 @@ public class CsvToSamples {
 	 * @param row
 	 * @return a sample
 	 */
-	public static Sample convertstringtosample(String row)
+	private static Sample convertstringtosample(String row)
 	{
 		String[] temp = row.split(",");
 		Sample sample = new Sample();
@@ -46,5 +49,32 @@ public class CsvToSamples {
 		sample.setArraywifi(wifis);
 		return sample;
 	}
+	/**
+	 * A function that reads a file according to the path received from the constructor
+	 * and transforms the file into a set of samples
+	 */
+	public static ArrayList<Sample> readfile(String path) {
+		FileReader fr;
+		BufferedReader br;
+		ArrayList<Sample> files = new ArrayList<>();
+		try {
+			fr = new FileReader("output/"+path);
+			br = new BufferedReader(fr);
+			String str = br.readLine();
+			str = br.readLine();
+			while(str != null)
+			{
+				files.add(convertstringtosample(str));
+				str = br.readLine();
+			}
+			br.close();
+			fr.close();
+		}
+		catch(IOException e)
+		{
+			System.out.println("Exception thrown  :" + e);
+		}
+		return files;
 
+	}
 }
