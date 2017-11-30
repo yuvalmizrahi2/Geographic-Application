@@ -43,7 +43,7 @@ public class CsvToSamples {
 			wifi.setSsid(temp[6 + i*4]);
 			wifi.setMac(temp[7 + i*4]);
 			wifi.setFrequncy(temp[8 + i*4]);
-			wifi.setSingal(temp[9 + 4*i]);
+			wifi.setSingal(Double.parseDouble(temp[9 + 4*i]));
 			wifis.add(wifi);
 		}
 		sample.setArraywifi(wifis);

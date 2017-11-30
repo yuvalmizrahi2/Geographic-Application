@@ -61,7 +61,7 @@ public class Gui {
 			samples = choosewaypointandradius(samples);
 			break;
 		}
-		return samples;
+		return SamplePredicates.replicateMac(samples);
 	}
 	/**
 	 * The function asks the user to choose which filter type he wants

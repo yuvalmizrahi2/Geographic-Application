@@ -71,7 +71,7 @@ public class SortedSample
 		wifi.setSsid(temp[1]);
 		int fre = Integer.parseInt(temp[4]);
 		wifi.setFrequncy(wifi.convertChannelToFrequency(fre));
-		wifi.setSingal(temp[5]);
+		wifi.setSingal(Integer.parseInt(temp[5]));
 		return wifi;
 	}
 	/**

@@ -10,12 +10,20 @@ public class Wifi implements Comparable<Wifi>
 	private String ssid;
 	private String mac;
 	private String frequncy;
-	private String singal;
+	private double singal;
 	/**
 	 * Default constructor
 	 */
 	public Wifi() {
 		super();
+	}
+	/**
+	 * A constructor that receive only the parameter mac
+	 * @param mac
+	 */
+	public Wifi(String mac)
+	{
+		this.mac = mac;
 	}
 	/**
 	 * A constructor that receives the parameters ssid,mac,frequncy,singal
@@ -24,7 +32,7 @@ public class Wifi implements Comparable<Wifi>
 	 * @param frequncy
 	 * @param singal
 	 */
-	public Wifi(String ssid, String mac, String frequncy, String singal) {
+	public Wifi(String ssid, String mac, String frequncy, int singal) {
 		super();
 		this.ssid = ssid;
 		this.mac = mac;
@@ -77,14 +85,14 @@ public class Wifi implements Comparable<Wifi>
 	 * function that return the value of the singal
 	 * @return singal
 	 */
-	public String getSingal() {
+	public double getSingal() {
 		return singal;
 	}
 	/**
 	 * function that get singal and change the singal value
 	 * @param singal
 	 */
-	public void setSingal(String singal) {
+	public void setSingal(double singal) {
 		this.singal = singal;
 	}
 	/**
@@ -112,7 +120,7 @@ public class Wifi implements Comparable<Wifi>
 	 */
 	@Override
 	public int compareTo(Wifi o) {
-		return Math.abs(Integer.parseInt(this.singal)) - Math.abs(Integer.parseInt(o.singal));
+		return (int) (Math.abs(this.singal) - Math.abs(o.singal));
 	}
 	/**
 	 * A function that compares two wifis according to their mac

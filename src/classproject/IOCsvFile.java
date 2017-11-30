@@ -12,6 +12,7 @@ import java.util.Collections;
  *
  */
 public class IOCsvFile {
+	private final static int srongestwif = 10;
 	/**
 	 * A function shell for readfile
 	 * @param path
@@ -65,8 +66,8 @@ public class IOCsvFile {
 				if(files.get(i).getArraywifi().size() != 0)
 				{
 					outs.print(files.get(i).toString());
-					outs.print(Math.min(10, files.get(i).getArraywifi().size()));
-					for(int j = 0; j < Math.min(10, files.get(i).getArraywifi().size()) ; j++ )
+					outs.print(Math.min(srongestwif, files.get(i).getArraywifi().size()));
+					for(int j = 0; j < Math.min(srongestwif, files.get(i).getArraywifi().size()) ; j++ )
 					{
 						outs.print(files.get(i).getArraywifi().get(j).toString());
 					}
