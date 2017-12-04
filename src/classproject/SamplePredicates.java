@@ -41,13 +41,13 @@ public class SamplePredicates {
 		return p -> p.getDate().after(min)&&p.getDate().before(max);
 	}
 	/**
-	 * A function that return all the sample that the wifi array size
-	 * is bigger than zero
-	 * @return predicate<sample> filter by date
+	 * A function that filter the samples by check if in the wifiarray contain one of
+	 * the mac from the array list
+	 * @return predicate<sample> filter by mac
 	 */
-	public static Predicate<Sample> wificontainmac(String mac)
-	{
-		return p -> p.getArraywifi().contains(new Wifi(mac));
+	public static Predicate<Sample> wificontainmac(ArrayList<String> mac)
+	{ 
+		return p -> p.containmac(mac);
 	}
 	/**
 	 * A function that receives an array of samples

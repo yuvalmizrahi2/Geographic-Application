@@ -48,7 +48,7 @@ public class Sample implements Comparable<Sample> {
 	 * @param arraywifi
 	 */
 	public void setArraywifi(ArrayList<Wifi> arraywifi) {
-		this.arraywifi.addAll(arraywifi);
+		this.arraywifi=arraywifi;
 	}
 	/**
 	 * function that return the value of the id
@@ -104,6 +104,21 @@ public class Sample implements Comparable<Sample> {
 	public String toString() {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		return dateFormat.format(this.date.getTime())+","+this.id+","+this.Waypoint.toString()+",";
+	}
+	/**
+	 * A function that check if one of the variable of the array list
+	 * is contain in the wifis array mac
+	 * @param mac
+	 * @return true if contain else false
+	 */
+	public boolean containmac(ArrayList<String> mac)
+	{
+		boolean flag = false;
+		for(int i = 0 ; i < mac.size() ; i++)
+		{
+			flag = flag || this.arraywifi.contains(new Wifi(mac.get(i)));
+		}
+		return flag;
 	}
 
 

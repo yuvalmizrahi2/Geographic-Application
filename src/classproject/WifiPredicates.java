@@ -17,7 +17,7 @@ public class WifiPredicates {
 	 * @param predicate
 	 * @return filtered array
 	 */
-	public static ArrayList<Wifi> filterSample(ArrayList<Wifi> samples , Predicate<Wifi> predicate)
+	public static ArrayList<Wifi> filterWifi(ArrayList<Wifi> samples , Predicate<Wifi> predicate)
 	{
 		return (ArrayList<Wifi>) samples.stream().filter(predicate).collect(Collectors.<Wifi>toList());
 	}
@@ -26,9 +26,9 @@ public class WifiPredicates {
 	 * @param id
 	 * @return predicate<sample> filter by id
 	 */
-	public static Predicate<Wifi> isidequalto(String mac)
+	public static Predicate<Wifi> isidequalto(ArrayList<String> mac)
 	{
-		return p -> p.getMac().equals(mac);
+		return p -> mac.contains(p.getMac());
 	}
 
 }

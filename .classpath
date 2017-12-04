@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="jars/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="jars/JavaAPIforKml-2.2.0.jar"/>
-	<classpathentry kind="lib" path="jars/jaxb-api-2.1.jar"/>
-	<classpathentry kind="lib" path="jars/jaxb-impl-2.1.17.jar"/>
-	<classpathentry kind="lib" path="jars/jsr173_api-1.0.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/יובל מזרחי/git/Task1/jars/jak/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/יובל מזרחי/git/Task1/jars/jak/JavaAPIforKml-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/יובל מזרחי/git/Task1/jars/jak/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/יובל מזרחי/git/Task1/jars/jak/jaxb-impl-2.1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/יובל מזרחי/git/Task1/jars/jak/jsr173_api-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
