@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:16:f4:2c,5220,-65</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:16:f4:28,2462,-75</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:16:28:fc,5180,-74</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:16:28:f8,2437,-77</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:15:43:e8,2412,-85</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:15:43:ec,5180,-79</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,,1c:b9:c4:96:28:f7,5180,-72</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,ec:8c:a2:08:78:cc,5200,-66</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,,1c:b9:c4:96:f4:27,5220,-54</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HWEVA</name>
+            <description>2017-08-11 13:44:00,HWEVA,32.10294999,35.20914724,703.175087,,Ariel_University,1c:b9:c4:16:28:ec,5260,-80</description>
+            <TimeStamp>
+                <when>2017-08-11T13:44:00Z</when>
+            </TimeStamp>
+            <Point>
+                <coordinates>35.20914724,32.10294999</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
