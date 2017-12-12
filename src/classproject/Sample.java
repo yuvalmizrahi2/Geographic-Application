@@ -122,12 +122,12 @@ public class Sample implements Comparable<Sample> {
 	 */
 	public boolean containmac(ArrayList<String> mac)
 	{
-		boolean flag = false;
 		for(int i = 0 ; i < mac.size() ; i++)
 		{
-			flag = flag || this.arraywifi.contains(new Wifi(mac.get(i)));
+			if(this.arraywifi.contains(new Wifi(mac.get(i))))
+					return true;
 		}
-		return flag;
+		return false;
 	}
 
 

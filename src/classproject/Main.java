@@ -9,7 +9,7 @@ public class Main {
 		ArrayList<Sample> samples = new ArrayList<>();
 		samples.addAll(CsvToSamples.readfile(files.getOutfilename()+".csv"));
 		ArrayList<Sample> person = new ArrayList<>();
-		person.addAll(CsvToSamples.readfile("_comb_no_gps_ts2_.csv"));
+		person.addAll(CsvToSamples.readfile("_comb_no_gps_ts1.csv"));
 		PersonLocation.findpersonlocation(samples, person);
 		int i = 0;
 		for (Sample sample : person) {

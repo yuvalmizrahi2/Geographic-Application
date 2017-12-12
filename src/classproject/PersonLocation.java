@@ -2,6 +2,10 @@ package classproject;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 /**
  * A class that evaluates location of the person by alt,lat,lon and weight 
  * @author יובל מזרחי
@@ -9,9 +13,26 @@ import java.util.Collections;
  */
 
 public class PersonLocation {
+	/**
+	 * A function that get database in array list tan move to map 
+	 * @param database
+	 * @param files
+	 */
 	public static void findpersonlocation(ArrayList<Sample> database , ArrayList<Sample> files)
 	{
-		WayPoint point;
+        Map<String, ArrayList<Sample>> map = new HashMap<String, ArrayList<Sample>>();
+        for(int i = 0 ; i < database.size() ; i++)
+        {
+        	for(int j = 0; j < database.get(i).getArraywifi().size() ; j++)
+        	{
+        		ArrayList<Sample> currentValue = map.get(database.get(i).getArraywifi().get(j).getMac());
+        	    if (currentValue == null) {
+        	        currentValue = new ArrayList<Sample>();
+        	        map.put(database.get(i).getArraywifi().get(j).getMac(), currentValue);
+        	    }
+        	    currentValue.add(database.get(i));
+        	}
+        }
 		ArrayList<String> mac = new ArrayList<>();
 		ArrayList<Double> signal = new ArrayList<>();
 		for(int i = 0; i < files.size() ; i++)
@@ -21,8 +42,7 @@ public class PersonLocation {
 				mac.add(files.get(i).getArraywifi().get(j).getMac());
 				signal.add(files.get(i).getArraywifi().get(j).getSingal());
 			}
-			point = findpersonlocation(mac, signal, database);
-			files.get(i).setWaypoint(point);
+			files.get(i).setWaypoint(findpersonlocation(mac, signal, map));
 			mac.clear();
 			signal.clear();
 		}
@@ -36,15 +56,18 @@ public class PersonLocation {
 	 * @param path
 	 * @return a way point
 	 */
-	private static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , ArrayList<Sample> data)
+	private static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , Map<String, ArrayList<Sample>> map)
 	{
-		ArrayList<Sample> database = new ArrayList<>(data);
-		database = SamplePredicates.filterSample(database, SamplePredicates.wificontainmac(mac));
-		System.out.println(database.size());
-		for(int i = 0; i < database.size() ; i++)
+		ArrayList<Sample> database = new ArrayList<>();
+		for(int i = 0; i < mac.size() ; i++)
 		{
-			database.get(i).setArraywifi(WifiPredicates.filterWifi(database.get(i).getArraywifi(), WifiPredicates.isidequalto(mac)));
+			if(map.get(mac.get(i)) != null)
+				database.addAll(map.get(mac.get(i)));
 		}
+		Set<Sample> set = new HashSet<>();
+		set.addAll(database);
+		database.clear();
+		database.addAll(set);
 		ArrayList<Double> pi = new ArrayList<>();
 		for(int j = 0; j < database.size() ; j++)
 		{
