@@ -11,7 +11,7 @@ public class Coordinate {
 	 */
 	public Coordinate()
 	{
-		
+		coordinate = 0;
 	}
 	/**
 	 * A constructor that get a coordinate

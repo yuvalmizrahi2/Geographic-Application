@@ -9,6 +9,25 @@ import java.util.Collections;
  */
 
 public class PersonLocation {
+	public static void findpersonlocation(ArrayList<Sample> database , ArrayList<Sample> files)
+	{
+		WayPoint point;
+		ArrayList<String> mac = new ArrayList<>();
+		ArrayList<Double> signal = new ArrayList<>();
+		for(int i = 0; i < files.size() ; i++)
+		{
+			for(int j = 0; j < files.get(i).getArraywifi().size() ; j++)
+			{
+				mac.add(files.get(i).getArraywifi().get(j).getMac());
+				signal.add(files.get(i).getArraywifi().get(j).getSingal());
+			}
+			point = findpersonlocation(mac, signal, database);
+			files.get(i).setWaypoint(point);
+			mac.clear();
+			signal.clear();
+		}
+	}
+
 	/**
 	 * A function that get from the user a array list of mac,signal and path
 	 * and return the location revalued of the person
@@ -17,10 +36,11 @@ public class PersonLocation {
 	 * @param path
 	 * @return a way point
 	 */
-	public static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , String path)
+	private static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , ArrayList<Sample> data)
 	{
-		ArrayList<Sample> database = CsvToSamples.readfile(path);
+		ArrayList<Sample> database = new ArrayList<>(data);
 		database = SamplePredicates.filterSample(database, SamplePredicates.wificontainmac(mac));
+		System.out.println(database.size());
 		for(int i = 0; i < database.size() ; i++)
 		{
 			database.get(i).setArraywifi(WifiPredicates.filterWifi(database.get(i).getArraywifi(), WifiPredicates.isidequalto(mac)));

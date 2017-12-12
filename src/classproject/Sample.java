@@ -22,6 +22,15 @@ public class Sample implements Comparable<Sample> {
 		this.arraywifi = new ArrayList<>();
 		this.Waypoint = new WayPoint();
 	}
+	public Sample(Sample sample,WayPoint point , Wifi wifi)
+	{
+		this.id = sample.getId();
+		this.Waypoint = new WayPoint(point);
+		this.date = new Date();
+		this.setDate(sample.getDate());
+		this.arraywifi = new ArrayList<>();
+		this.arraywifi.add(wifi);
+	}
 	/**
 	 * function that return the value of the date
 	 * @return date

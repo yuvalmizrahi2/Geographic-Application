@@ -7,13 +7,13 @@ package classproject;
  *
  */
 public class AlgoMath {
-	private final static int strongestsample = 3;
-	private final static int power = 2;
-	private final static int norm = 10000;
-	private final static double sigdiff = 0.4;
-	private final static int mindiff = 3;
-	private final static double nosingal = -120;
-	private final static double diffnosig = 100;
+	private static int strongestsample = 3;
+	private static int power = 2;
+	private static int norm = 10000;
+	private static double sigdiff = 0.4;
+	private static int mindiff = 3;
+	private static double nosingal = -120;
+	private static double diffnosig = 100;
 
 
 	/**

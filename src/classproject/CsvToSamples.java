@@ -25,6 +25,7 @@ public class CsvToSamples {
 		Sample sample = new Sample();
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date date = null;
+		temp[0] = SortedSample.changeforamt(temp[0]);
 		try {
 			date = df.parse(temp[0]);
 		} catch (ParseException e) {
@@ -35,7 +36,10 @@ public class CsvToSamples {
 		temp[0] = temp[0] + "Z";
 		sample.setDate(date);
 		sample.setId(temp[1]);
-		sample.setWaypoint(new WayPoint(Double.parseDouble(temp[2]), Double.parseDouble(temp[3]), Double.parseDouble(temp[4])));
+		if(temp[2].equals("?"))
+			sample.setWaypoint(new WayPoint());
+		else
+			sample.setWaypoint(new WayPoint(Double.parseDouble(temp[2]), Double.parseDouble(temp[3]), Double.parseDouble(temp[4])));
 		ArrayList<Wifi> wifis = new ArrayList<>();
 		for(int i = 0; i < Integer.parseInt(temp[5]) ; i++ )
 		{
@@ -61,7 +65,8 @@ public class CsvToSamples {
 			fr = new FileReader("output/"+path);
 			br = new BufferedReader(fr);
 			String str = br.readLine();
-			str = br.readLine();
+			if(str.contains("ID"))
+				str = br.readLine();
 			while(str != null)
 			{
 				files.add(convertstringtosample(str));

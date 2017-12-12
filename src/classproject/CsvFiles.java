@@ -9,52 +9,22 @@ import java.util.Date;
  * @author יובל מזרחי
  *
  */
-public class CsvFiles
+public class CsvFiles extends File
 {
 	private ArrayList<Sample> files;
-	private String path;
 	private String outfilename;
 	/**
 	 * A constructor that receives the parameter path
 	 * @param path
 	 */
 	public CsvFiles(String path) {
-		this.path = path;
-		this.files = IOCsvFile.readfile(this.path);
+		this.files = IOCsvFile.readfile(path);
 		this.outfilename = getcurrenttime();
 		IOCsvFile.writefile(this.outfilename+".csv" , this.files);
 	}
 	/**
 	 * function that return the value of the arraylist<sample>
 	 * @return arraylist<sample>
-	 */
-	public ArrayList<Sample> getFiles() {
-		return files;
-	}
-	/**
-	 * function that get arraylist<sample> and change the arraylist<sample> value
-	 * @param files
-	 */
-	public void setFiles(ArrayList<Sample> files) {
-		this.files = files;
-	}
-	/**
-	 * function that return the value of the path
-	 * @return path
-	 */
-	public String getPath() {
-		return path;
-	}
-	/**
-	 * function that get path and change the path value
-	 * @param path
-	 */
-	public void setPath(String path) {
-		this.path = path;
-	}
-	/**
-	 * function that return the value of the outfilename
-	 * @return
 	 */
 	public String getOutfilename() {
 		return outfilename;

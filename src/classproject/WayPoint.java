@@ -30,6 +30,12 @@ public class WayPoint {
 		this.lon = new Coordinate();
 		this.alt = new Coordinate();
 	}
+	public WayPoint(WayPoint point)
+	{
+		this.lat = new Coordinate(point.getLat().getCoordinate());
+		this.lon = new Coordinate(point.getLon().getCoordinate());
+		this.alt = new Coordinate(point.getAlt().getCoordinate());
+	}
 	/**
 	 * function that return the value of the lat
 	 * @return lat

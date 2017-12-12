@@ -22,13 +22,21 @@ public class SortedSample
 	 * @param date
 	 * @return date in format yyyy-MM-dd HH:mm:ss
 	 */
-	private static String changeforamt(String date)
+	public static String changeforamt(String date)
 	{
+		String str;
 		date = date.replaceAll("/", "-");
 		if(date.split(" ")[0].split("-")[0].length() == 2)
 		{
-			String str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[1]+"-"+date.split(" ")[0].split("-")[0]+" "+date.split(" ")[1];
+			if(date.contains("AM") || date.contains("PM"))
+				str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[1]+"-"+date.split(" ")[0].split("-")[0]+" "+date.split(" ")[1]+" "+date.split(" ")[2];
+			else
+				str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[1]+"-"+date.split(" ")[0].split("-")[0]+" "+date.split(" ")[1];
 			date = str;
+		}
+		if(date.contains("AM") || date.contains("PM"))
+		{
+			date = "20"+date.split(" ")[0]+" "+date.split(" ")[1];
 		}
 		if(date.split(" ")[1].split(":").length == 2)
 			date = date+":00";
