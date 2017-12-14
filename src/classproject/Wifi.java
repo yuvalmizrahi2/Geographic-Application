@@ -25,6 +25,13 @@ public class Wifi implements Comparable<Wifi>
 	{
 		this.mac = mac;
 	}
+	public Wifi(Wifi o)
+	{
+		this.ssid = o.ssid;
+		this.mac = o.mac;
+		this.frequncy = o.frequncy;
+		this.singal = o.singal;
+	}
 	/**
 	 * A constructor that receives the parameters ssid,mac,frequncy,singal
 	 * @param ssid

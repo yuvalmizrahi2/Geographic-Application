@@ -4,6 +4,7 @@ package testproject;
 import static org.junit.Assert.assertTrue;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
@@ -32,5 +33,11 @@ class CsvToSamplesTest {
 			e.printStackTrace();
 		}
 	}
+	@Test
+	void testreadfile()
+	{
+		ArrayList<Sample> samples = CsvToSamples.readfile("CsvToSamplesTest.csv");
+		assertTrue(samples.size() == 1);
+		}
 
 }

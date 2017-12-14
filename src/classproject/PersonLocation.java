@@ -25,12 +25,16 @@ public class PersonLocation {
         {
         	for(int j = 0; j < database.get(i).getArraywifi().size() ; j++)
         	{
-        		ArrayList<Sample> currentValue = map.get(database.get(i).getArraywifi().get(j).getMac());
-        	    if (currentValue == null) {
-        	        currentValue = new ArrayList<Sample>();
-        	        map.put(database.get(i).getArraywifi().get(j).getMac(), currentValue);
-        	    }
-        	    currentValue.add(database.get(i));
+        		if(map.containsKey(database.get(i).getArraywifi().get(j).getMac()))
+        		{
+        			map.get(database.get(i).getArraywifi().get(j).getMac()).add(database.get(i));
+        		}
+        		else
+        		{
+        			ArrayList<Sample> temp = new ArrayList<>();
+        			temp.add(database.get(i));
+        			map.put(database.get(i).getArraywifi().get(j).getMac(), temp);
+        		}
         	}
         }
 		ArrayList<String> mac = new ArrayList<>();
@@ -61,8 +65,10 @@ public class PersonLocation {
 		ArrayList<Sample> database = new ArrayList<>();
 		for(int i = 0; i < mac.size() ; i++)
 		{
-			if(map.get(mac.get(i)) != null)
+			if(map.containsKey(mac.get(i)))
+			{
 				database.addAll(map.get(mac.get(i)));
+			}
 		}
 		Set<Sample> set = new HashSet<>();
 		set.addAll(database);
