@@ -29,7 +29,7 @@ public class SortedSample
 		if(date.split(" ")[0].split("-")[0].length() == 2)
 		{
 			if(date.contains("AM") || date.contains("PM"))
-				str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[1]+"-"+date.split(" ")[0].split("-")[0]+" "+date.split(" ")[1]+" "+date.split(" ")[2];
+				str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[0]+"-"+date.split(" ")[0].split("-")[1]+" "+date.split(" ")[1]+" "+date.split(" ")[2];
 			else
 				str = date.split(" ")[0].split("-")[2]+"-"+date.split(" ")[0].split("-")[1]+"-"+date.split(" ")[0].split("-")[0]+" "+date.split(" ")[1];
 			date = str;

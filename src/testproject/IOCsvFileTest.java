@@ -1,9 +1,7 @@
 package testproject;
 
 import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.*;
 
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
