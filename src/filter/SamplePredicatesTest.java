@@ -16,7 +16,7 @@ class SamplePredicatesTest {
 	@Test
 	void testIsidequalto() {
 		ArrayList<Sample> test = CsvToSamples.readfile("IOCsvFileTest.csv");
-		test = SamplePredicates.filterSample(test, SamplePredicates.isidequalto("yuval"));
+		test = SamplePredicates.filterSample(test, SamplePredicates.isidequalto("yuval",false));
 		assertTrue(test.size() == 0);
 	}
 
@@ -24,7 +24,7 @@ class SamplePredicatesTest {
 	void testIsintheradius() {
 		ArrayList<Sample> test = CsvToSamples.readfile("IOCsvFileTest.csv");
 		WayPoint point = new WayPoint();
-		test = SamplePredicates.filterSample(test, SamplePredicates.isintheradius(point, 0.0));
+		test = SamplePredicates.filterSample(test, SamplePredicates.isintheradius(point, 0.0,false));
 		assertTrue(test.size() == 0);
 	}
 
@@ -32,7 +32,7 @@ class SamplePredicatesTest {
 	void testIsinthetime() {
 		ArrayList<Sample> test = CsvToSamples.readfile("IOCsvFileTest.csv");
 		Date time = new Date();
-		test = SamplePredicates.filterSample(test, SamplePredicates.isinthetime(time, time));
+		test = SamplePredicates.filterSample(test, SamplePredicates.isinthetime(time, time,false));
 		assertTrue(test.size() == 0);
 	}
 

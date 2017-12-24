@@ -19,8 +19,10 @@ public class SamplePredicates {
 	 * @param id
 	 * @return predicate<sample> filter by id
 	 */
-	public static Predicate<Sample> isidequalto(String id)
+	public static Predicate<Sample> isidequalto(String id , boolean negat)
 	{
+		if(negat)
+			return p -> !(p.getId().equals(id));
 		return p -> p.getId().equals(id);
 	}
 	/**
@@ -29,8 +31,10 @@ public class SamplePredicates {
 	 * @param radius
 	 * @return predicate<sample> filter by distance
 	 */
-	public static Predicate<Sample> isintheradius(WayPoint waypoint , Double radius)
+	public static Predicate<Sample> isintheradius(WayPoint waypoint , Double radius , boolean negat)
 	{
+		if(negat)
+			return p -> !(Point2D.distance(waypoint.getLat().getCoordinate(), waypoint.getLon().getCoordinate(), p.getWaypoint().getLat().getCoordinate(), p.getWaypoint().getLon().getCoordinate()) <= radius);
 		return p -> Point2D.distance(waypoint.getLat().getCoordinate(), waypoint.getLon().getCoordinate(), p.getWaypoint().getLat().getCoordinate(), p.getWaypoint().getLon().getCoordinate()) <= radius;
 	}
 	/**
@@ -39,8 +43,10 @@ public class SamplePredicates {
 	 * @param max
 	 * @return predicate<sample> filter by date
 	 */
-	public static Predicate<Sample> isinthetime(Date min , Date max)
+	public static Predicate<Sample> isinthetime(Date min , Date max , boolean negat)
 	{
+		if(negat)
+			return p -> !(p.getDate().after(min)&&p.getDate().before(max));
 		return p -> p.getDate().after(min)&&p.getDate().before(max);
 	}
 	/**
@@ -53,6 +59,42 @@ public class SamplePredicates {
 	public static ArrayList<Sample> filterSample(ArrayList<Sample> samples , Predicate<Sample> predicate)
 	{
 		return (ArrayList<Sample>) samples.stream().filter(predicate).collect(Collectors.<Sample>toList());
+	}
+	/**
+	 * A function that receives an array of samples
+	 * and a filter by two filters in the operation OR type and returns the filtered array by type
+	 * @param samples
+	 * @param predicate1
+	 * @param predicate2
+	 * @return
+	 */
+	public static ArrayList<Sample> filterSampleOr(ArrayList<Sample> samples , Predicate<Sample> predicate1,Predicate<Sample> predicate2)
+	{
+		return (ArrayList<Sample>) samples.stream().filter(predicate1.or(predicate2)).collect(Collectors.<Sample>toList());
+	}
+	/**
+	 * A function that receives an array of samples
+	 * and a filter by two filters in the operation AND type and returns the filtered array by type
+	 * @param samples
+	 * @param predicate1
+	 * @param predicate2
+	 * @return
+	 */
+	public static ArrayList<Sample> filterSampleNot(ArrayList<Sample> samples , Predicate<Sample> predicate1,Predicate<Sample> predicate2)
+	{
+		return (ArrayList<Sample>) samples.stream().filter(predicate1.and(predicate1.negate().or(predicate2).negate())).collect(Collectors.<Sample>toList());
+	}
+	/**
+	 * A function that receives an array of samples
+	 * and a filter by two filters in the operation AND type and returns the filtered array by type
+	 * @param samples
+	 * @param predicate1
+	 * @param predicate2
+	 * @return
+	 */
+	public static ArrayList<Sample> filterSampleAnd(ArrayList<Sample> samples , Predicate<Sample> predicate1,Predicate<Sample> predicate2)
+	{
+		return (ArrayList<Sample>) samples.stream().filter(predicate1.and(predicate2)).collect(Collectors.<Sample>toList());
 	}
 	/**
 	 * A function that receives an array of samples

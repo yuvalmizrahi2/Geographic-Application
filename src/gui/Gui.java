@@ -140,8 +140,8 @@ public class Gui {
 			System.out.println(e);
 		}
 		if(date[0].before(date[1]))
-			return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[0], date[1]));
-		return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[1], date[0]));
+			return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[0], date[1],false));
+		return SamplePredicates.filterSample(samples, SamplePredicates.isinthetime(date[1], date[0],false));
 	}	
 	/**
 	 * A function that asks the user to enter id
@@ -153,7 +153,7 @@ public class Gui {
 		String id;
 		System.out.print("enter a id : ");
 		id = this.scanner.next();
-		return SamplePredicates.filterSample(samples, SamplePredicates.isidequalto(id));
+		return SamplePredicates.filterSample(samples, SamplePredicates.isidequalto(id,false));
 	}
 	/**
 	 * A function that asks the user to enter way point and radius
@@ -172,7 +172,7 @@ public class Gui {
 			point.getLon().setCoordinate(Double.parseDouble(this.scanner.next()));
 			System.out.println("enter the radius");
 			radius = Double.parseDouble(this.scanner.next());
-			samples = SamplePredicates.filterSample(samples, SamplePredicates.isintheradius(point, radius));
+			samples = SamplePredicates.filterSample(samples, SamplePredicates.isintheradius(point, radius,false));
 		}
 		catch (Exception e) {
 			System.out.println("Exception thrown  :" + e);
