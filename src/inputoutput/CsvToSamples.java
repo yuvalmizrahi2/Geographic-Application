@@ -9,8 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import other.SortedSample;
 import sample.Sample;
+import sample.SortedSample;
 import sample.WayPoint;
 import sample.Wifi;
 /**
@@ -24,7 +24,7 @@ public class CsvToSamples {
 	 * @param row
 	 * @return a sample
 	 */
-	private static Sample convertstringtosample(String row)
+	public static Sample convertstringtosample(String row)
 	{
 		String[] temp = row.split(",");
 		Sample sample = new Sample();
@@ -67,7 +67,7 @@ public class CsvToSamples {
 		BufferedReader br;
 		ArrayList<Sample> files = new ArrayList<>();
 		try {
-			fr = new FileReader("output/"+path);
+			fr = new FileReader(path);
 			br = new BufferedReader(fr);
 			String str = br.readLine();
 			if(str.contains("ID"))

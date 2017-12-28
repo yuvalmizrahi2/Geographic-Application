@@ -13,15 +13,21 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
+import database.DataBase;
+
 
 
 public class SaveKmlFile extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3294955550162313092L;
 	private JFileChooser chooser;
 	private JTextField NameText;
 	/**
 	 * Create the panel.
 	 */
-	public SaveKmlFile() {
+	public SaveKmlFile(DataBase database) {
 		this.setSize(600, 300);
 		setLayout(null);
 
@@ -79,24 +85,29 @@ public class SaveKmlFile extends JPanel {
 		NameText.setBounds(100, 11, 464, 25);
 		NamePanel.add(NameText);
 		NameText.setColumns(10);
-
-		JButton Save = new JButton("Save");
-		Save.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				if(NameText.getText().equals("") || Path.getText().equals("No Selection"))
-				{
-					JOptionPane.showMessageDialog(new JFrame(),"Must enter name file and direction");
-				}
-				else
-				{
-					Wraper.SaveKmlFile(Path, NameText);
-				}
-			}
-		});
-		Save.setFont(new Font("Arial", Font.PLAIN, 14));
-		Save.setBounds(240, 264, 89, 25);
-		this.add(Save);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 239, 580, 50);
+		add(panel);
+		panel.setLayout(null);
+		
+				JButton Save = new JButton("Save");
+				Save.setBounds(240, 11, 89, 25);
+				panel.add(Save);
+				Save.addMouseListener(new MouseAdapter() {
+					@Override
+					public void mouseClicked(MouseEvent e) {
+						if(NameText.getText().equals("") || Path.getText().equals("No Selection"))
+						{
+							JOptionPane.showMessageDialog(new JFrame(),"Must enter name file and direction");
+						}
+						else
+						{
+							Wraper.SaveKmlFile(Path, NameText,database);
+						}
+					}
+				});
+				Save.setFont(new Font("Arial", Font.PLAIN, 14));
 
 	}
 

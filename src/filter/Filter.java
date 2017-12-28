@@ -1,39 +1,16 @@
 package filter;
-
 /**
- * A class that preserves the type of filtering it chooses
- * @author יובל מזרחי
- *
+ * A interface for filter
  */
-public class Filter {
-	private KindFilter filter;
-	/**
-	 * Default constructor
-	 */
-	public Filter() 
-	{
+import java.io.Serializable;
 
-	}
+import sample.Sample;
+
+public interface Filter extends Serializable {
 	/**
-	 * A constructor that receives the parameter filter
-	 * @param filter
-	 */
-	public Filter(KindFilter filter) {
-		this.filter = filter;
-	}
-	/**
-	 * function that return the value of the filter
+	 * A function that check if the sample is correct is some conditions
+	 * @param sample
 	 * @return
 	 */
-	public KindFilter getFilter() {
-		return filter;
-	}
-	/**
-	 * function that get filter and change the filter value
-	 * @param filter
-	 */
-	public void setFilter(KindFilter filter) {
-		this.filter = filter;
-	}
-
+	public boolean check(Sample sample);
 }

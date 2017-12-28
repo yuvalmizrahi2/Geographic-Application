@@ -129,13 +129,33 @@ public class Wifi implements Comparable<Wifi>
 	public int compareTo(Wifi o) {
 		return (int) (Math.abs(this.singal) - Math.abs(o.singal));
 	}
-	/**
-	 * A function that compares two wifis according to their mac
-	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((frequncy == null) ? 0 : frequncy.hashCode());
+		result = prime * result + ((mac == null) ? 0 : mac.hashCode());
+		long temp;
+		temp = Double.doubleToLongBits(singal);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + ((ssid == null) ? 0 : ssid.hashCode());
+		return result;
+	}
 	@Override
 	public boolean equals(Object obj) {
-		Wifi wifi = (Wifi)obj;
-		return this.getMac().equals(wifi.getMac());
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Wifi other = (Wifi) obj;
+		if (mac == null) {
+			if (other.mac != null)
+				return false;
+		} else if (!mac.equals(other.mac))
+			return false;
+		return true;
 	}
 	/**
 	 * A function that return string with the details of the wifi in csv format

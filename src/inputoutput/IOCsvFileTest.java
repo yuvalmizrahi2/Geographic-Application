@@ -20,7 +20,7 @@ class IOCsvFileTest {
 	@Test
 	void testWritefile() {
 		ArrayList<Sample> test = IOCsvFile.readfile("filetest");
-		IOCsvFile.writefile("IOCsvFileTest.csv", test);
+		IOCsvFile.writefile("IOCsvFileTest.csv", test,"output//");
 		test = CsvToSamples.readfile("IOCsvFileTest.csv");
 		assertTrue(test.size() == 3607);
 	}

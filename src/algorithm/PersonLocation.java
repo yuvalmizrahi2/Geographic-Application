@@ -64,7 +64,7 @@ public class PersonLocation {
 	 * @param path
 	 * @return a way point
 	 */
-	private static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , Map<String, ArrayList<Sample>> map)
+	public static WayPoint findpersonlocation(ArrayList<String> mac , ArrayList<Double> signal , Map<String, ArrayList<Sample>> map)
 	{
 		ArrayList<Sample> database = new ArrayList<>();
 		for(int i = 0; i < mac.size() ; i++)

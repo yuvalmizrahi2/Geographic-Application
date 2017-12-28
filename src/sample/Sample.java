@@ -88,17 +88,36 @@ public class Sample implements Comparable<Sample> {
 	public void setWaypoint(WayPoint waypoint) {
 		Waypoint = waypoint;
 	}
-	/**
-	 * A function that makes a comparison between two sample not including wifi data
-	 * The comparison is done according to date and waypoint 
-	 * @param temp
-	 * @return true if equal else false
-	 */
 	@Override
-	public boolean equals(Object temp) {
-		Sample sample = (Sample)temp;
-		return this.Waypoint.equals(sample.Waypoint) &&
-				this.date.equals(sample.date);
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Sample other = (Sample) obj;
+		if (Waypoint == null) {
+			if (other.Waypoint != null)
+				return false;
+		} else if (!Waypoint.equals(other.Waypoint))
+			return false;
+		if (arraywifi == null) {
+			if (other.arraywifi != null)
+				return false;
+		} else if (!arraywifi.equals(other.arraywifi))
+			return false;
+		if (date == null) {
+			if (other.date != null)
+				return false;
+		} else if (!date.equals(other.date))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		return true;
 	}
 	/**
 	 * A function that compare two samples by their date
@@ -106,6 +125,16 @@ public class Sample implements Comparable<Sample> {
 	@Override
 	public int compareTo(Sample o) {
 		return this.date.compareTo(o.date);
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((Waypoint == null) ? 0 : Waypoint.hashCode());
+		result = prime * result + ((arraywifi == null) ? 0 : arraywifi.hashCode());
+		result = prime * result + ((date == null) ? 0 : date.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
 	}
 	/**
 	 * A function that print the details of the sample

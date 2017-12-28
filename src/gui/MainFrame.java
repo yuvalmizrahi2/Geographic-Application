@@ -8,6 +8,9 @@ import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 
+import database.DataBase;
+import filter.NonOperator;
+import filter.Operator;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -16,12 +19,21 @@ public class MainFrame {
 
 	private JFrame Main;
 	private JPanel savecsvfile;
-	private JPanel main;
+	public JPanel main;
 	private JPanel addcsv;
 	private JPanel addfolder;
 	private JPanel savekmlfile;
 	private JPanel idfilter;
+	private JPanel timeflter;
+	private JPanel locationfilter;
+	private JPanel algo1;
+	private JPanel algo2;
 	private JPanel currentpanel;
+	private DataBase database;
+	private DataBase temp;
+	private JPanel savefilter;
+	private JPanel addfilter;
+	private Operator[] currentoperator; 
 
 	/**
 	 * Launch the application.
@@ -50,27 +62,42 @@ public class MainFrame {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		database = new DataBase();
+		temp = new DataBase();
+		currentoperator = new Operator[1];
+		currentoperator[0] = new NonOperator();
 		Main = new JFrame();
 		Main.setTitle("Main");
 		Main.setSize(600, 350);
-		Main.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		Main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Main.setResizable(false);
-		addcsv = new AddCsv();
+		addcsv = new AddCsv(database,temp);
 		Main.getContentPane().add(addcsv).setVisible(false);
-		addfolder = new AddFolder();
+		addfolder = new AddFolder(database,temp);
 		Main.getContentPane().add(addfolder).setVisible(false);
-		savecsvfile = new SaveCsvFile();
+		savecsvfile = new SaveCsvFile(database);
 		Main.getContentPane().add(savecsvfile).setVisible(false);
-		savekmlfile = new SaveKmlFile();
+		savekmlfile = new SaveKmlFile(database);
 		Main.getContentPane().add(savekmlfile).setVisible(false);
-		idfilter = new IdFilter();
+		idfilter = new IdFilter(currentoperator);
 		Main.getContentPane().add(idfilter).setVisible(false);
-		main = new Main();
+		timeflter = new TimeFilter(currentoperator);
+		Main.getContentPane().add(timeflter).setVisible(false);
+		locationfilter = new LocationFilter(currentoperator);
+		Main.getContentPane().add(locationfilter).setVisible(false);
+		algo1 = new Algo1(database);
+		Main.getContentPane().add(algo1).setVisible(false);
+		algo2 = new Algo2(database);
+		Main.getContentPane().add(algo2).setVisible(false);
+		savefilter = new SaveFilter(currentoperator[0]);
+		Main.getContentPane().add(savefilter).setVisible(false);
+		addfilter = new AddFilter(currentoperator);
+		Main.getContentPane().add(addfilter).setVisible(false);
+		main = new Main(database , currentoperator);
 		Main.getContentPane().add(main);
 		currentpanel = main;
 		JMenuBar Menu = new JMenuBar();
 		Main.setJMenuBar(Menu);
-
 		JMenu Input = new JMenu("Input");
 		Menu.add(Input);
 
@@ -84,7 +111,7 @@ public class MainFrame {
 					currentpanel = addcsv;
 					Main.setTitle("Add Csv File");
 				}
-					
+
 			}
 		});
 		Input.add(CsvFile);
@@ -102,6 +129,20 @@ public class MainFrame {
 			}
 		});
 		Input.add(Folder);
+		
+		JMenuItem AddFilter = new JMenuItem("Add Filter");
+		AddFilter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource().equals(AddFilter))
+				{
+					currentpanel.setVisible(false);
+					addfilter.setVisible(true);
+					currentpanel = addfilter;
+					Main.setTitle("Add Filter");
+				}
+			}
+		});
+		Input.add(AddFilter);
 
 		JMenu OutPut = new JMenu("Output");
 		Menu.add(OutPut);
@@ -133,14 +174,50 @@ public class MainFrame {
 			}
 		});
 		OutPut.add(SaveKml);
+		
+		JMenuItem SaveFilter = new JMenuItem("Save Filter");
+		SaveFilter.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource().equals(SaveFilter))
+				{
+					currentpanel.setVisible(false);
+					savefilter.setVisible(true);
+					currentpanel = savefilter;
+					Main.setTitle("Save Filter");
+				}
+			}
+		});
+		OutPut.add(SaveFilter);
 
 		JMenu Filter = new JMenu("Filter");
 		Menu.add(Filter);
 
 		JMenuItem Time = new JMenuItem("By time");
+		Time.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource() == Time)
+				{
+					currentpanel.setVisible(false);
+					timeflter.setVisible(true);
+					currentpanel = timeflter;
+					Main.setTitle("Time Filter");
+				}
+			}
+		});
 		Filter.add(Time);
 
 		JMenuItem Place = new JMenuItem("By place");
+		Place.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource() == Place)
+				{
+					currentpanel.setVisible(false);
+					locationfilter.setVisible(true);
+					currentpanel = locationfilter;
+					Main.setTitle("Location Filter");
+				}
+			}
+		});
 		Filter.add(Place);
 
 		JMenuItem Id = new JMenuItem("By id");
@@ -161,9 +238,31 @@ public class MainFrame {
 		Menu.add(Algo);
 
 		JMenuItem Algo1 = new JMenuItem("Algorithm 1");
+		Algo1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource() == Algo1)
+				{
+					currentpanel.setVisible(false);
+					algo1.setVisible(true);
+					currentpanel = algo1;
+					Main.setTitle("Algorithm 1");
+				}
+			}
+		});
 		Algo.add(Algo1);
 
 		JMenuItem Algo2 = new JMenuItem("Algorithm 2");
+		Algo2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource() == Algo2)
+				{
+					currentpanel.setVisible(false);
+					algo2.setVisible(true);
+					currentpanel = algo2;
+					Main.setTitle("Algorithm 2");
+				}
+			}
+		});
 		Algo.add(Algo2);
 
 		JMenu DB = new JMenu("Data base");
@@ -174,7 +273,7 @@ public class MainFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource() == Reset)
 				{
-					Wraper.Reset();
+					Wraper.Reset(database , temp);
 				}
 			}
 		});
@@ -185,12 +284,12 @@ public class MainFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource() == CancelFilter)
 				{
-					Wraper.CancelFilter();
+					Wraper.CancelFilter(database , temp);
 				}
 			}
 		});
 		DB.add(CancelFilter);
-		
+
 		JMenuItem ReturnMain = new JMenuItem("Return Main");
 		ReturnMain.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

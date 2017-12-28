@@ -35,16 +35,27 @@ public class Coordinate {
 	public void setCoordinate(double coordinate) {
 		this.coordinate = coordinate;
 	}
-	/**
-	 * A function that return true if both of them is equeal that return
-	 * else return false
-	 * @param obj
-	 * @return
-	 */
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		long temp;
+		temp = Double.doubleToLongBits(coordinate);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		return result;
+	}
 	@Override
 	public boolean equals(Object obj) {
-		Coordinate coor = (Coordinate)obj;
-		return this.coordinate == coor.getCoordinate();
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Coordinate other = (Coordinate) obj;
+		if (Double.doubleToLongBits(coordinate) != Double.doubleToLongBits(other.coordinate))
+			return false;
+		return true;
 	}
 	/**
 	 * A function that print the details of the coordinate

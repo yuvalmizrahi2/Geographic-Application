@@ -7,8 +7,8 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import other.SortedSample;
 import sample.Sample;
+import sample.SortedSample;
 /**
  * A class that contain all the input or output function on csv file
  * @author יובל מזרחי
@@ -24,7 +24,6 @@ public class IOCsvFile {
 	{
 		ArrayList<Sample> files = new ArrayList<>();
 		readfile(path, files);
-		Collections.sort(files);
 		return files;
 	}
 	/**
@@ -39,7 +38,7 @@ public class IOCsvFile {
 		File[] listOfFiles = folder.listFiles();
 		for(int i = 0 ; i < listOfFiles.length ; i++)
 		{
-			if(listOfFiles[i].isFile())
+			if(listOfFiles[i].isFile() && listOfFiles[i].toString().endsWith("csv"))
 			{
 				files.addAll(SortedSample.readfile(listOfFiles[i].getPath()));
 			}
@@ -52,11 +51,13 @@ public class IOCsvFile {
 	/**
 	 * A function that accepts the entire sample collection and writes it to a csv file
 	 */
-	public static void writefile(String filename , ArrayList<Sample> files) {
+	public static void writefile(String filename , ArrayList<Sample> files , String dir) {
+		Collections.sort(files);
 		FileWriter fw = null;
 		PrintWriter outs = null;
 		try {
-			fw = new FileWriter("output/"+filename);
+//			fw = new FileWriter("output/"+filename);
+			fw = new FileWriter(dir+"/"+filename);
 			outs = new PrintWriter(fw);
 			outs.print("Date,ID,Lat,Lon,Alt,#WiFi networks");
 			for(int i = 1 ; i <= 10 ; i++)

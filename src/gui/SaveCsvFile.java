@@ -6,6 +6,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
+
+import database.DataBase;
+
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
@@ -16,13 +19,17 @@ import javax.swing.JTextField;
 
 public class SaveCsvFile extends JPanel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6798583820849655732L;
 	private JFileChooser chooser;
 	private JTextField NameText;
 
 	/**
 	 * Create the application.
 	 */
-	public SaveCsvFile() {
+	public SaveCsvFile(DataBase database) {
 		this.setSize(600, 300);
 		setLayout(null);
 
@@ -80,24 +87,29 @@ public class SaveCsvFile extends JPanel {
 		NameText.setBounds(100, 11, 464, 25);
 		NamePanel.add(NameText);
 		NameText.setColumns(10);
-
-		JButton Save = new JButton("Save");
-		Save.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				if(NameText.getText().equals("") || Path.getText().equals("No Selection"))
-				{
-					JOptionPane.showMessageDialog(new JFrame(),"Must enter name file and direction");
-				}
-				else
-				{
-					Wraper.SaveCsvFile(Path, NameText);
-				}
-			}
-		});
-		Save.setFont(new Font("Arial", Font.PLAIN, 14));
-		Save.setBounds(240, 264, 89, 25);
-		this.add(Save);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 239, 580, 50);
+		add(panel);
+		panel.setLayout(null);
+		
+				JButton Save = new JButton("Save");
+				Save.setBounds(240, 11, 89, 25);
+				panel.add(Save);
+				Save.addMouseListener(new MouseAdapter() {
+					@Override
+					public void mouseClicked(MouseEvent e) {
+						if(NameText.getText().equals("") || Path.getText().equals("No Selection"))
+						{
+							JOptionPane.showMessageDialog(new JFrame(),"Must enter name file and direction");
+						}
+						else
+						{
+							Wraper.SaveCsvFile(Path, NameText,database);
+						}
+					}
+				});
+				Save.setFont(new Font("Arial", Font.PLAIN, 14));
 
 
 	}

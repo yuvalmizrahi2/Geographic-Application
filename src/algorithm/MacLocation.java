@@ -62,9 +62,12 @@ public class MacLocation {
 	 * @param path
 	 * @return way point of the mac
 	 */
-	private static WayPoint findmaclocation(String mac , Map<String, ArrayList<Sample>> map)
+	public static WayPoint findmaclocation(String mac , Map<String, ArrayList<Sample>> map)
 	{
-		ArrayList<Sample> database = new ArrayList<>(map.get(mac));
+		ArrayList<Sample> database;
+		if(map.containsKey(mac))
+			database = new ArrayList<>(map.get(mac));
+		else return new WayPoint();
 		for(int i = 0; i < database.size() ; i++)
 		{
 			ArrayList<Wifi> wifi = new ArrayList<>(database.get(i).getArraywifi());

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
 import de.micromata.opengis.kml.v_2_2_0.TimeStamp;
-import gui.Gui;
+import filter.SamplePredicates;
 import sample.Sample;
 /**
  * A class for write kml file
@@ -20,8 +20,8 @@ public class WriteKml {
 	/**
 	 * A function that accepts the name of a writable file and produces a kml file
 	 */
-	public static void writefile(String filename , ArrayList<Sample> files) {
-		files = new Gui().startgui(files);
+	public static void writefile(String filename , ArrayList<Sample> temp , String dir) {
+		ArrayList<Sample> files = new ArrayList<>(SamplePredicates.replicateMac(temp));
 		final Kml kml = new Kml();
 		Document doc=kml.createAndSetDocument();
 		for(int i = 0; i < files.size() ; i++)
@@ -46,7 +46,7 @@ public class WriteKml {
 			}
 		}
 		try {
-			kml.marshal(new File("output/"+filename));
+			kml.marshal(new File(dir +"/"+filename));
 		} catch (FileNotFoundException e) {
 			System.out.println("Exception thrown  :" + e);
 		}

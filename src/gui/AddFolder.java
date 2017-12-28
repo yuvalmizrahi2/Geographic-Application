@@ -4,22 +4,27 @@ import java.awt.Font;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JRadioButton;
 import javax.swing.SwingConstants;
+
+import database.DataBase;
 
 public class AddFolder extends JPanel {
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7805920556520565132L;
+
+	/**
 	 * Create the panel.
 	 */
-	public AddFolder() {
+	public AddFolder(DataBase database , DataBase temp) {
 setFont(new Font("Arial", Font.PLAIN, 14));
 		
 		this.setSize(600, 300);
@@ -48,7 +53,7 @@ setFont(new Font("Arial", Font.PLAIN, 14));
 			public void mouseClicked(MouseEvent e) {
 				JFileChooser chooser = new JFileChooser();
 				chooser.setCurrentDirectory(new java.io.File("."));
-				chooser.setDialogTitle("choosertitle");
+				chooser.setDialogTitle("Choose Folder");
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				chooser.setAcceptAllFileFilterUsed(false);
 				if (chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
@@ -62,39 +67,15 @@ setFont(new Font("Arial", Font.PLAIN, 14));
 		ChooseFolder.setFont(new Font("Arial", Font.PLAIN, 14));
 		ChooseFolder.setBounds(10, 11, 130, 25);
 		FolderChoosePanel.add(ChooseFolder);
-		
-		JPanel PanelFormat = new JPanel();
-		PanelFormat.setFont(new Font("Arial", Font.PLAIN, 14));
-		PanelFormat.setBounds(10, 67, 580, 45);
-		add(PanelFormat);
-		PanelFormat.setLayout(null);
-		
-		JLabel FormatLabel = new JLabel("Format File:");
-		FormatLabel.setFont(new Font("Arial", Font.BOLD, 14));
-		FormatLabel.setBounds(10, 11, 85, 23);
-		PanelFormat.add(FormatLabel);
-		
-		JPanel PanelKindFormat = new JPanel();
-		PanelKindFormat.setBounds(105, 11, 465, 23);
-		PanelFormat.add(PanelKindFormat);
-		PanelKindFormat.setLayout(null);
-		
-		JRadioButton WigleForamt = new JRadioButton("Wigle Foramt");
-		WigleForamt.setFont(new Font("Arial", Font.PLAIN, 14));
-		WigleForamt.setBounds(6, 0, 109, 23);
-		WigleForamt.setSelected(true);
-		PanelKindFormat.add(WigleForamt);
-		
-		JRadioButton CsvForamt = new JRadioButton("Csv 46 Column Foramt");
-		CsvForamt.setFont(new Font("Arial", Font.PLAIN, 14));
-		CsvForamt.setBounds(117, 0, 170, 23);
-		PanelKindFormat.add(CsvForamt);
-		
-		ButtonGroup group = new ButtonGroup();
-		group.add(CsvForamt);
-		group.add(WigleForamt);
+				
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 239, 580, 50);
+		add(panel);
+		panel.setLayout(null);
 		
 		JButton SaveFile = new JButton("Save");
+		SaveFile.setBounds(240, 11, 89, 25);
+		panel.add(SaveFile);
 		SaveFile.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -104,13 +85,11 @@ setFont(new Font("Arial", Font.PLAIN, 14));
 				}
 				else
 				{
-					Wraper.AddFolder(DirLabel, group.getSelection());
+					Wraper.AddFolder(DirLabel,database , temp);
 				}
 			}
 		});
 		SaveFile.setFont(new Font("Arial", Font.PLAIN, 14));
-		SaveFile.setBounds(240, 264, 89, 25);
-		add(SaveFile);
 
 	}
 

@@ -44,6 +44,8 @@ public class FindLocation {
 			slon = slon + AlgoMath.coordinateweight(locationarray.get(i).getWaypoint().getLon(), weight.get(i));
 			slat = slat + AlgoMath.coordinateweight(locationarray.get(i).getWaypoint().getLat(), weight.get(i));
 		}
+		if(sweight == 0)
+			return new WayPoint(0, 0, 0);
 		return new WayPoint(slat/sweight, slon/sweight, salt/sweight);
 	}
 
