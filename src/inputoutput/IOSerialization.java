@@ -7,8 +7,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import javax.swing.JOptionPane;
-
 import filter.AndOperator;
 import filter.FilterNotFilterOperator;
 import filter.NonOperator;
@@ -38,7 +36,8 @@ public class IOSerialization {
 			o.close();
 			f.close();
 		} catch (FileNotFoundException e) {
-			JOptionPane.showMessageDialog(null, "error in writing filter", "Worng", JOptionPane.ERROR_MESSAGE);
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		catch (IOException e)
 		{
@@ -74,9 +73,9 @@ public class IOSerialization {
 			oi.close();
 			fi.close();
 		} catch (ClassNotFoundException e) {
-			JOptionPane.showMessageDialog(null, "class not found", "Worng", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
 		}
 		return filter;
 	}

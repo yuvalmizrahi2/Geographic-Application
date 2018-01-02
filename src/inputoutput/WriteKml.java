@@ -6,8 +6,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import javax.swing.JOptionPane;
-
 import de.micromata.opengis.kml.v_2_2_0.Document;
 import de.micromata.opengis.kml.v_2_2_0.Kml;
 import de.micromata.opengis.kml.v_2_2_0.TimeStamp;
@@ -50,8 +48,7 @@ public class WriteKml {
 		try {
 			kml.marshal(new File(dir +"/"+filename));
 		} catch (FileNotFoundException e) {
-			JOptionPane.showMessageDialog(null, "error in writing file", "Worng", JOptionPane.ERROR_MESSAGE);
-
+			System.out.println("Exception thrown  :" + e);
 		}
 	}
 	

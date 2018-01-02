@@ -22,8 +22,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
-
 import algorithm.MacLocation;
 import algorithm.PersonLocation;
 import database.DataBase;
@@ -257,7 +255,8 @@ public class Wraper {
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
+			System.exit(1);
 		}
 
 		return new ImageIcon((new ImageIcon("image.jpg")).getImage().getScaledInstance(630, 600,
@@ -318,7 +317,8 @@ public class Wraper {
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
+			System.exit(1);
 		}
 
 		return new ImageIcon((new ImageIcon("image.jpg")).getImage().getScaledInstance(630, 600,
@@ -353,7 +353,8 @@ public class Wraper {
 			is.close();
 			os.close();
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
+			System.exit(1);
 		}
 
 		return new ImageIcon((new ImageIcon("image.jpg")).getImage().getScaledInstance(630, 600,
