@@ -7,6 +7,8 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import javax.swing.JOptionPane;
+
 import sample.Sample;
 import sample.SortedSample;
 /**
@@ -56,7 +58,6 @@ public class IOCsvFile {
 		FileWriter fw = null;
 		PrintWriter outs = null;
 		try {
-//			fw = new FileWriter("output/"+filename);
 			fw = new FileWriter(dir+"/"+filename);
 			outs = new PrintWriter(fw);
 			outs.print("Date,ID,Lat,Lon,Alt,#WiFi networks");
@@ -81,7 +82,8 @@ public class IOCsvFile {
 			outs.close();
 			fw.close();
 		} catch (IOException e) {
-			System.out.println("Exception thrown  :" + e);
+			JOptionPane.showMessageDialog(null, "error in writing file", "Worng", JOptionPane.ERROR_MESSAGE);
+
 		}
 	}
 

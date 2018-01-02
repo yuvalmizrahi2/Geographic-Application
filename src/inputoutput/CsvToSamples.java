@@ -9,6 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import javax.swing.JOptionPane;
+
 import sample.Sample;
 import sample.SortedSample;
 import sample.WayPoint;
@@ -34,7 +36,8 @@ public class CsvToSamples {
 		try {
 			date = df.parse(temp[0]);
 		} catch (ParseException e) {
-			System.out.println("Exception thrown  :" + e);
+			JOptionPane.showMessageDialog(null, "error in parsing", "Worng", JOptionPane.ERROR_MESSAGE);
+
 		}
 		temp[0] = temp[0].replaceAll(" ", "T");
 		temp[0] = temp[0].replaceAll("/", ":");
@@ -82,7 +85,7 @@ public class CsvToSamples {
 		}
 		catch(IOException e)
 		{
-			System.out.println("Exception thrown  :" + e);
+			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
 		}
 		return files;
 

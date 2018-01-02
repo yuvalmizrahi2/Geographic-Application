@@ -9,6 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+
+import javax.swing.JOptionPane;
 /**
  * A class containing a set of samples that each sample contains the location, id, and wifi array
  * @author יובל מזרחי
@@ -48,8 +50,9 @@ public class SortedSample
 	 * @param temp
 	 * @param id
 	 * @return a sample
+	 * @throws ParseException 
 	 */
-	private static Sample getsample(String[] temp , String id)
+	private static Sample getsample(String[] temp , String id) throws ParseException
 	{
 		Sample sample = new Sample();
 		WayPoint point = new WayPoint(Double.parseDouble(temp[6]), Double.parseDouble(temp[7]), Double.parseDouble(temp[8]));
@@ -58,11 +61,7 @@ public class SortedSample
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		temp[3] = changeforamt(temp[3]);
 		Date date = null;
-		try {
-			date = df.parse(temp[3]);
-		} catch (ParseException e) {
-			System.out.println("Exception thrown  :" + e);
-		}
+		date = df.parse(temp[3]);
 		sample.setDate(date);
 		return sample;
 	}
@@ -133,7 +132,9 @@ public class SortedSample
 		}
 		catch(IOException e)
 		{
-			System.out.println("Exception thrown  :" + e);
+			JOptionPane.showMessageDialog(null, "error in reading file", "Worng", JOptionPane.ERROR_MESSAGE);
+		} catch (ParseException e) {
+			JOptionPane.showMessageDialog(null, "error in foramt file", "Worng", JOptionPane.ERROR_MESSAGE);
 		}
 		return arrayofwifi;
 	}
