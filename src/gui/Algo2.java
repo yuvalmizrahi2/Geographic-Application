@@ -184,6 +184,15 @@ public class Algo2 extends JPanel {
 							JOptionPane.showMessageDialog(new JFrame(),image[0],null,JOptionPane.PLAIN_MESSAGE,null);
 						}
 					}
+					textField.setText("");
+					textField_1.setText("");
+					textField_1.setText("");
+					textField_2.setText("");
+					textField_3.setText("");
+					textField_4.setText("");
+					textField_5.setText("");
+					textField_6.setText("");
+					rdbtnNewRadioButton.setSelected(true);
 				}
 			}
 		});

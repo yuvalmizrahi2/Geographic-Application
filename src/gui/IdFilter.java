@@ -133,7 +133,8 @@ public class IdFilter extends JPanel {
 							else if(((FilterNotFilterOperator)currentoperator[0]).getFilter2() == null)
 								((FilterNotFilterOperator)currentoperator[0]).setFilter2(filter);
 						}
-						
+						IdText.setText("");
+						InRadio.setSelected(true);
 					}
 				}
 			}

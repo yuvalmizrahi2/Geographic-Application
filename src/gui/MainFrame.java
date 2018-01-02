@@ -13,6 +13,7 @@ import filter.NonOperator;
 import filter.Operator;
 
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 
 public class MainFrame {
@@ -34,6 +35,8 @@ public class MainFrame {
 	private JPanel savefilter;
 	private JPanel addfilter;
 	private Operator[] currentoperator; 
+	private ArrayList<String> files;
+	private ArrayList<String> folder;
 
 	/**
 	 * Launch the application.
@@ -62,6 +65,8 @@ public class MainFrame {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		files = new ArrayList<>();
+		folder = new ArrayList<>();
 		database = new DataBase();
 		temp = new DataBase();
 		currentoperator = new Operator[1];
@@ -71,9 +76,9 @@ public class MainFrame {
 		Main.setSize(600, 350);
 		Main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Main.setResizable(false);
-		addcsv = new AddCsv(database,temp);
+		addcsv = new AddCsv(database,temp,files);
 		Main.getContentPane().add(addcsv).setVisible(false);
-		addfolder = new AddFolder(database,temp);
+		addfolder = new AddFolder(database,temp , folder);
 		Main.getContentPane().add(addfolder).setVisible(false);
 		savecsvfile = new SaveCsvFile(database);
 		Main.getContentPane().add(savecsvfile).setVisible(false);
@@ -274,6 +279,8 @@ public class MainFrame {
 				if(e.getSource() == Reset)
 				{
 					Wraper.Reset(database , temp);
+					files.clear();
+					folder.clear();
 				}
 			}
 		});
@@ -303,5 +310,12 @@ public class MainFrame {
 			}
 		});
 		DB.add(ReturnMain);
+		try {
+			Wraper.fileslisten(database , temp , folder , files );
+			Wraper.folderlisten(database , temp , folder , files);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 	}
 }

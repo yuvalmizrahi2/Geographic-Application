@@ -74,6 +74,7 @@ public class Algo1 extends JPanel {
 				{
 					image[0] =  Wraper.GetMapLocation(database, textField.getText());
 					JOptionPane.showMessageDialog(new JFrame(),image[0],null,JOptionPane.PLAIN_MESSAGE,null);
+					textField.setText("");
 				}
 			}
 		});

@@ -103,7 +103,9 @@ public class SaveKmlFile extends JPanel {
 						}
 						else
 						{
-							Wraper.SaveKmlFile(Path, NameText,database);
+							Wraper.SaveKmlFile(Path.getText(), NameText.getText(),database);
+							NameText.setText("");
+							Path.setText("No Selection");
 						}
 					}
 				});

@@ -184,6 +184,11 @@ public class LocationFilter extends JPanel {
 							else if(((FilterNotFilterOperator)currentoperator[0]).getFilter2() == null)
 								((FilterNotFilterOperator)currentoperator[0]).setFilter2(filter);
 						}
+						textField.setText("");
+						textField_1.setText("");
+						textField_2.setText("");
+						textField_3.setText("");
+						radioButton.setSelected(true);
 					}
 				}
 			}

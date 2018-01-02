@@ -105,13 +105,15 @@ public class SaveFilter extends JPanel {
 						else
 						{
 							if(filter instanceof AndOperator)
-								Wraper.SaveFilter(Path, NameText, filter,"A");
+								Wraper.SaveFilter(Path.getText(), NameText.getText(), filter,"A");
 							else if(filter instanceof NonOperator)
-								Wraper.SaveFilter(Path, NameText, filter,"Non");
+								Wraper.SaveFilter(Path.getText(), NameText.getText(), filter,"Non");
 							else if(filter instanceof NotOperator)
-								Wraper.SaveFilter(Path, NameText, filter,"Not");
+								Wraper.SaveFilter(Path.getText(), NameText.getText(), filter,"Not");
 							else
-								Wraper.SaveFilter(Path, NameText, filter,"N");
+								Wraper.SaveFilter(Path.getText(), NameText.getText(), filter,"N");
+							NameText.setText("");
+							Path.setText("No Selection");
 						}
 					}
 				});

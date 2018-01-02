@@ -3,6 +3,7 @@ package gui;
 import java.awt.Font;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -24,7 +25,7 @@ public class AddFolder extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public AddFolder(DataBase database , DataBase temp) {
+	public AddFolder(DataBase database , DataBase temp  ,ArrayList<String> files) {
 setFont(new Font("Arial", Font.PLAIN, 14));
 		
 		this.setSize(600, 300);
@@ -85,7 +86,9 @@ setFont(new Font("Arial", Font.PLAIN, 14));
 				}
 				else
 				{
-					Wraper.AddFolder(DirLabel,database , temp);
+					files.add(DirLabel.getText());
+					Wraper.AddFolder(DirLabel.getText(),database , temp);
+					DirLabel.setText("No Selection");
 				}
 			}
 		});

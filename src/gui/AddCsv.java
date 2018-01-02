@@ -15,6 +15,7 @@ import javax.swing.SwingConstants;
 import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 public class AddCsv extends JPanel {
 
@@ -26,7 +27,7 @@ public class AddCsv extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public AddCsv(DataBase database , DataBase temp) {
+	public AddCsv(DataBase database , DataBase temp , ArrayList<String> files) {
 		setFont(new Font("Arial", Font.PLAIN, 14));
 
 		this.setSize(600, 300);
@@ -85,7 +86,9 @@ public class AddCsv extends JPanel {
 				}
 				else
 				{
-					Wraper.AddCsv(label,database,temp);
+					files.add(label.getText());
+					Wraper.AddCsv(label.getText(),database,temp);
+					label.setText("No Selection");
 				}
 			}
 		});

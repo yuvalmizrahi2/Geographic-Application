@@ -82,7 +82,8 @@ public class AddFilter extends JPanel {
 				}
 				else
 				{
-					Wraper.AddFilter(label, filter);
+					Wraper.AddFilter(label.getText(), filter);
+					label.setText("No Selection");
 				}
 			}
 		});

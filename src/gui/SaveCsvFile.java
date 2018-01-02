@@ -105,7 +105,9 @@ public class SaveCsvFile extends JPanel {
 						}
 						else
 						{
-							Wraper.SaveCsvFile(Path, NameText,database);
+							Wraper.SaveCsvFile(Path.getText(), NameText.getText(),database);
+							NameText.setText("");
+							Path.setText("No Selection");
 						}
 					}
 				});
