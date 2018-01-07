@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="inputoutput.WriteKml" project="Task1" file="/Task1/src/inputoutput/WriteKml.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="219" x="343" y="161"/>    
+  <class id="1" language="java" name="inputoutput.IOSerialization" project="Task1" 
+    file="/Task1/src/main/java/inputoutput/IOSerialization.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="217" x="97" y="175"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="inputoutput.IOCsvFile" project="Task1" 
-    file="/Task1/src/inputoutput/IOCsvFile.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="219" x="602" y="161"/>    
+  <class id="2" language="java" name="inputoutput.WriteKml" project="Task1" 
+    file="/Task1/src/main/java/inputoutput/WriteKml.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="250" x="354" y="175"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="inputoutput.CsvToSamples" project="Task1" 
-    file="/Task1/src/inputoutput/CsvToSamples.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="207" x="861" y="161"/>    
+  <class id="3" language="java" name="inputoutput.IOCsvFile" project="Task1" 
+    file="/Task1/src/main/java/inputoutput/IOCsvFile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="250" x="644" y="175"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="inputoutput.CsvToSamples" project="Task1" 
+    file="/Task1/src/main/java/inputoutput/CsvToSamples.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="207" x="934" y="175"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

@@ -1,63 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="wraper.Database" project="Task1" file="/Task1/src/wraper/Database.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="210" x="180" y="149"/>    
+  <class id="1" language="java" name="algorithm.FindLocation" project="Task1" 
+    file="/Task1/src/main/java/algorithm/FindLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="349" x="74" y="262"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="wraper.Listener" project="Task1" file="/Task1/src/wraper/Listener.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="431" x="430" y="149"/>    
+  <class id="2" language="java" name="algorithm.MacLocation" project="Task1" 
+    file="/Task1/src/main/java/algorithm/MacLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="343" x="61" y="69"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="wraper.Filter" project="Task1" file="/Task1/src/wraper/Filter.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="99" width="226" x="901" y="149"/>    
+  <class id="3" language="java" name="algorithm.AlgoMath" project="Task1" 
+    file="/Task1/src/main/java/algorithm/AlgoMath.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="240" x="444" y="419"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="wraper.Algorithm" project="Task1" file="/Task1/src/wraper/Algorithm.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="358" x="1167" y="149"/>    
+  <class id="4" language="java" name="algorithm.PersonLocation" project="Task1" 
+    file="/Task1/src/main/java/algorithm/PersonLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="507" x="444" y="69"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="wraper.Add" project="Task1" file="/Task1/src/wraper/Add.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="135" width="235" x="430" y="378"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="wraper.Save" project="Task1" file="/Task1/src/wraper/Save.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="135" width="240" x="1565" y="149"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
+  <dependency id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="6">    
+    <bendpoint x="453" y="262"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
   <dependency id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="8">    
     <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="1"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
