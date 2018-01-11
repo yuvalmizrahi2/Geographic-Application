@@ -22,7 +22,9 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
-
+configurations {
+   jaxDoclet
+ }
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
@@ -43,4 +45,22 @@ dependencies {
     testCompile 'org.junit.jupiter:junit-jupiter-api:5.0.0-M2'
     
     
+}
+javadoc {
+source = sourceSets.main.allJava
+classpath = configurations.compile
+}
+task generateRestApiDocs(type: Javadoc) {
+   source = sourceSets.main.allJava
+   destinationDir = reporting.file("rest-api-docs")
+   options.docletpath = configurations.jaxDoclet.files.asType(List)
+   options.doclet = "com.lunatech.doclets.jax.jaxrs.JAXRSDoclet"
+   options.addStringOption("jaxrscontext", "http://localhost:8080/myapp")
+ }
+ task myZip(type: Zip) {
+   from 'Task/'
+   include '*'
+   include '*/*' //to include contents of a folder present inside Reports directory
+   archiveName 'Project.zip'
+   destinationDir(file('Task/'))
 }
