@@ -11,6 +11,10 @@ apply plugin: 'java-library'
 
 apply plugin: 'eclipse'
 
+apply plugin: 'java'
+
+
+
 // In this section you declare where to find the dependencies of your project
 repositories {
 
@@ -19,10 +23,6 @@ repositories {
     jcenter()
 }
 
-task startgui(type: JavaExec) {
-    main = "gui.MainFrame.main"
-    classpath = sourceSets.main.runtimeClasspath
-}
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
@@ -44,8 +44,3 @@ dependencies {
     
     
 }
-javadoc {
-    source = sourceSets.main.allJava
-    classpath = configurations.compile
-}
-
