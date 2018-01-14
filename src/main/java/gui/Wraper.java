@@ -5,6 +5,7 @@ import javax.swing.ImageIcon;
 
 import database.DataBase;
 import filter.Operator;
+import sql.Table;
 import wraper.Add;
 import wraper.Algorithm;
 import wraper.Database;
@@ -57,6 +58,16 @@ public class Wraper {
 	public static void FilterDataBase(Operator[] filter , DataBase database)
 	{
 		Filter.FilterDataBase(filter, database);
+	}
+	/**
+	 * A shell function for adding sql table for the database
+	 * @param table
+	 * @param database
+	 * @param temp
+	 */
+	public static void Addsql(Table table , DataBase database , DataBase temp)
+	{
+		Add.AddSql(table, database, temp);
 	}
 	/**
 	 * A shell function for adding csv file

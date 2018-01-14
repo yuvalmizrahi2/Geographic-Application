@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 import database.DataBase;
 import filter.NonOperator;
 import filter.Operator;
+import sql.Table;
 
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -37,6 +38,8 @@ public class MainFrame {
 	private Operator[] currentoperator; 
 	private ArrayList<String> files;
 	private ArrayList<String> folder;
+	private ArrayList<Table> tables;
+	private AddSql addsql;
 
 	/**
 	 * Launch the application.
@@ -67,6 +70,7 @@ public class MainFrame {
 	private void initialize() {
 		files = new ArrayList<>();
 		folder = new ArrayList<>();
+		tables = new ArrayList<>();
 		database = new DataBase();
 		temp = new DataBase();
 		currentoperator = new Operator[1];
@@ -96,6 +100,8 @@ public class MainFrame {
 		Main.getContentPane().add(algo2).setVisible(false);
 		savefilter = new SaveFilter(currentoperator[0]);
 		Main.getContentPane().add(savefilter).setVisible(false);
+		addsql = new AddSql(database,temp , tables);
+		Main.getContentPane().add(addsql).setVisible(false);
 		addfilter = new AddFilter(currentoperator);
 		Main.getContentPane().add(addfilter).setVisible(false);
 		main = new Main(database , currentoperator);
@@ -148,6 +154,20 @@ public class MainFrame {
 			}
 		});
 		Input.add(AddFilter);
+		
+		JMenuItem mntmAddSql = new JMenuItem("Add sql");
+		mntmAddSql.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(e.getSource().equals(mntmAddSql))
+				{
+					currentpanel.setVisible(false);
+					addsql.setVisible(true);
+					currentpanel = addsql;
+					Main.setTitle("Add Sql");
+				}
+			}
+		});
+		Input.add(mntmAddSql);
 
 		JMenu OutPut = new JMenu("Output");
 		Menu.add(OutPut);

@@ -1,5 +1,7 @@
 package wraper;
 
+import java.text.ParseException;
+
 import database.DataBase;
 import filter.AndOperator;
 import filter.FilterNotFilterOperator;
@@ -9,6 +11,8 @@ import filter.Operator;
 import inputoutput.CsvToSamples;
 import inputoutput.IOCsvFile;
 import inputoutput.IOSerialization;
+import sql.IOSqlTable;
+import sql.Table;
 /**
  * A class that contain all the functions that connected
  * to adding object to the system
@@ -80,6 +84,33 @@ public class Add {
 					filter[0] = (NotOperator)IOSerialization.ReadObject(str, "Not");
 				else
 					filter[0] = (FilterNotFilterOperator)IOSerialization.ReadObject(str, "N");
+
+			}
+		}).start();
+	}
+	/**
+	 * A function that adding to the database a sql table that the
+	 * user enter
+	 * @param table
+	 * @param database
+	 * @param temp
+	 */
+	public static void AddSql(Table table , DataBase database , DataBase temp)
+	{
+		new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				synchronized (database) {
+					try {
+						database.AddCollection(IOSqlTable.readtable(table));
+					} catch (ParseException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					temp.AddDataBase(database);
+					
+				}
 
 			}
 		}).start();

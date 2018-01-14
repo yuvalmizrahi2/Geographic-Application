@@ -17,6 +17,11 @@ public class Wifi implements Comparable<Wifi>
 	public Wifi() {
 		super();
 	}
+	public Wifi(String mac , double signal)
+	{
+		this.mac = mac;
+		this.singal = signal;
+	}
 	/**
 	 * A constructor that receive only the parameter mac
 	 * @param mac
