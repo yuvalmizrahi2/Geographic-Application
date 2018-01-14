@@ -104,7 +104,7 @@ public class Add {
 				synchronized (database) {
 					try {
 						database.AddCollection(IOSqlTable.readtable(table));
-					} catch (ParseException e) {
+					} catch (ParseException | ClassNotFoundException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}

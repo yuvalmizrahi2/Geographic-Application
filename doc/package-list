@@ -1,6 +1,7 @@
 algorithm
 algorithmtest
 database
+databasetest
 filter
 filtertest
 gui
@@ -8,4 +9,5 @@ inputoutput
 intputoutputtest
 sample
 sampletest
+sql
 wraper

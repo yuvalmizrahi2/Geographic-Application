@@ -19,7 +19,7 @@ import sample.Wifi;
 
 public class IOSqlTable {
 
-	public static Set<Sample> readtable(Table table ) throws ParseException
+	public static Set<Sample> readtable(Table table ) throws ParseException, ClassNotFoundException
 	{
 		Set<Sample> data = new HashSet<>();
 		Connection con = null;
@@ -39,7 +39,7 @@ public class IOSqlTable {
 				ArrayList<Wifi> wifis = new ArrayList<>();
 				for(int i = 0 ; i < rs.getInt(7) ; i++)
 				{
-					wifis.add(new Wifi(rs.getString(8 * i), rs.getDouble(9 * i)));
+					wifis.add(new Wifi(rs.getString(8 + 2*i), rs.getDouble(9 + 2*i)));
 
 				}
 				s.setArraywifi(wifis);

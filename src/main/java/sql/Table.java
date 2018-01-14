@@ -28,7 +28,7 @@ public class Table {
 		this.namedatabase = namedatabase;
 		this.username = username;
 		this.password = password;
-		this.url = "jdbc:mysql://"+ip+":"+port+"/"+namedatabase;
+		this.url = "jdbc:mysql://"+ip+":"+port+"/"+namedatabase+"?useSSL=false";
 		this.tablename = tablename;
 	}
 	public String getIp() {
