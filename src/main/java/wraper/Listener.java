@@ -196,8 +196,12 @@ public class Listener {
 		try {
 			con = DriverManager.getConnection(database.getSqltables().get(i).getUrl(), database.getSqltables().get(i).getUsername(), database.getSqltables().get(i).getPassword());
 			st = con.createStatement();
-			rs = st.executeQuery("SELECT UPDATE_TIME FROM information_schema.tables WHERE TABLE_SCHEMA = '" + database.getSqltables().get(i).getNamedatabase() +"' AND TABLE_NAME = '"+database.getSqltables().get(i).getTablename()+"'");
-			return (rs.getString(1));
+			rs = st.executeQuery("SELECT UPDATE_TIME\r\n" + 
+					"FROM   information_schema.tables\r\n" + 
+					"WHERE  TABLE_SCHEMA = '"+database.getSqltables().get(i).getNamedatabase()+"'\r\n" + 
+					"   AND TABLE_NAME = '"+database.getSqltables().get(i).getTablename()+"'");
+			if(rs.next())
+				return (rs.getString(1));
 		}
 		catch (SQLException ex) {
 			Logger lgr = Logger.getLogger(IOSqlTable.class.getName());
@@ -212,7 +216,7 @@ public class Listener {
 				lgr.log(Level.WARNING, ex.getMessage(), ex);
 			}
 		}
-		return null;
+		return "";
 
 	}
 	/**
@@ -226,7 +230,7 @@ public class Listener {
 		int amountofpaths[] = {database.getSqltables().size()};
 		ExecutorService service = Executors.newCachedThreadPool();
 		ArrayList<String> lastmodified = new ArrayList<>();
-		for(int i = 0 ; i < database.getFile().size() ; i++)
+		for(int i = 0 ; i < amountofpaths[0] ; i++)
 		{
 			lastmodified.add(connectsql(database, i));
 		}	
@@ -238,20 +242,19 @@ public class Listener {
 				{
 					for(int i = 0 ; i < lastmodified.size() ; i++)
 					{
-						if(lastmodified.get(i) != connectsql(database, i))
+						if(lastmodified.get(i).equals(connectsql(database, i)))
 						{
 							resetdatabasae(database);
 							lastmodified.set(i, connectsql(database, i)) ;
 						}
 					}
-					if(amountofpaths[0] != database.getFile().size())
+					if(amountofpaths[0] != database.getSqltables().size())
 					{
-						for(int i = amountofpaths[0]; i < database.getFile().size() ; i++)
+						for(int i = amountofpaths[0]; i < database.getSqltables().size() ; i++)
 						{
 							lastmodified.add(connectsql(database, i));
-							System.out.println(lastmodified.get(i));
 						}
-						amountofpaths[0] = database.getFile().size();
+						amountofpaths[0] = database.getSqltables().size();
 					}
 				}
 			}
