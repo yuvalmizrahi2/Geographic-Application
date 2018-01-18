@@ -277,6 +277,10 @@ public class Listener {
 			{
 				Add.AddCsv(database.getFile().get(i), database);
 			}
+			for(int i = 0; i < database.getSqltables().size() ; i++)
+			{
+				Add.AddSql(database.getSqltables().get(i), database);
+			}
 		}
 	}
 
