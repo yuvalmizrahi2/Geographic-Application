@@ -32,13 +32,9 @@ public class MainFrame {
 	private JPanel algo2;
 	private JPanel currentpanel;
 	private DataBase database;
-	private DataBase temp;
 	private JPanel savefilter;
 	private JPanel addfilter;
 	private Operator[] currentoperator; 
-	private ArrayList<String> files;
-	private ArrayList<String> folder;
-	private ArrayList<Table> tables;
 	private AddSql addsql;
 
 	/**
@@ -68,11 +64,7 @@ public class MainFrame {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		files = new ArrayList<>();
-		folder = new ArrayList<>();
-		tables = new ArrayList<>();
 		database = new DataBase();
-		temp = new DataBase();
 		currentoperator = new Operator[1];
 		currentoperator[0] = new NonOperator();
 		Main = new JFrame();
@@ -80,9 +72,9 @@ public class MainFrame {
 		Main.setSize(600, 350);
 		Main.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Main.setResizable(false);
-		addcsv = new AddCsv(database,temp,files);
+		addcsv = new AddCsv(database);
 		Main.getContentPane().add(addcsv).setVisible(false);
-		addfolder = new AddFolder(database,temp , folder);
+		addfolder = new AddFolder(database);
 		Main.getContentPane().add(addfolder).setVisible(false);
 		savecsvfile = new SaveCsvFile(database);
 		Main.getContentPane().add(savecsvfile).setVisible(false);
@@ -100,7 +92,7 @@ public class MainFrame {
 		Main.getContentPane().add(algo2).setVisible(false);
 		savefilter = new SaveFilter(currentoperator[0]);
 		Main.getContentPane().add(savefilter).setVisible(false);
-		addsql = new AddSql(database,temp , tables);
+		addsql = new AddSql(database);
 		Main.getContentPane().add(addsql).setVisible(false);
 		addfilter = new AddFilter(currentoperator);
 		Main.getContentPane().add(addfilter).setVisible(false);
@@ -298,9 +290,7 @@ public class MainFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource() == Reset)
 				{
-					Wraper.Reset(database , temp);
-					files.clear();
-					folder.clear();
+					Wraper.Reset(database);
 				}
 			}
 		});
@@ -311,7 +301,7 @@ public class MainFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource() == CancelFilter)
 				{
-					Wraper.CancelFilter(database , temp);
+					Wraper.CancelFilter(database);
 				}
 			}
 		});
@@ -331,8 +321,9 @@ public class MainFrame {
 		});
 		DB.add(ReturnMain);
 		try {
-			Wraper.fileslisten(database , temp , folder , files );
-			Wraper.folderlisten(database , temp , folder , files);
+			Wraper.fileslisten(database);
+			Wraper.folderlisten(database);
+			Wraper.sqltablelisten(database);
 		} catch (InterruptedException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

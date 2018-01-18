@@ -11,10 +11,15 @@ import java.util.Map;
 import java.util.Set;
 
 import sample.Sample;
+import sql.Table;
 
 public class DataBase {
 	private Set<Sample> arraysample;
 	private Map<String, ArrayList<Sample>> map;
+	private Set<Sample> arraysampletemp;
+	private ArrayList<String> folder;
+	private ArrayList<String> file;
+	private ArrayList<Table> sqltables;
 
 	/**
 	 * Default constructor
@@ -23,6 +28,10 @@ public class DataBase {
 	{
 		this.arraysample = new HashSet<>();
 		this.map = new HashMap<>();
+		this.arraysampletemp = new HashSet<>();
+		this.folder = new ArrayList<>();
+		this.file = new ArrayList<>();
+		this.sqltables = new ArrayList<>();
 	}
 	/**
 	 * A constructor that get a database
@@ -41,6 +50,7 @@ public class DataBase {
 	public void Add(Sample sample)
 	{
 			this.arraysample.add(sample);
+			this.arraysampletemp.add(sample);
 			for (Sample samp : arraysample) {
 				for(int i = 0 ; i < samp.getArraywifi().size(); i++)
 				{
@@ -74,6 +84,10 @@ public class DataBase {
 	{
 		this.arraysample.clear();
 		this.map.clear();
+		this.arraysampletemp.clear();
+		this.file.clear();
+		this.folder.clear();
+		this.sqltables.clear();
 	}
 	/**
 	 * A function that return set of sample
@@ -97,6 +111,36 @@ public class DataBase {
 	 */
 	public Map<String, ArrayList<Sample>> getMap() {
 		return map;
+	}
+	public Set<Sample> getArraysample() {
+		return arraysample;
+	}
+	public void setArraysample(Set<Sample> arraysample) {
+		this.arraysample = arraysample;
+	}
+	public Set<Sample> getArraysampletemp() {
+		return arraysampletemp;
+	}
+	public void setArraysampletemp(Set<Sample> arraysampletemp) {
+		this.arraysampletemp = arraysampletemp;
+	}
+	public ArrayList<String> getFolder() {
+		return folder;
+	}
+	public void setFolder(ArrayList<String> folder) {
+		this.folder = folder;
+	}
+	public ArrayList<String> getFile() {
+		return file;
+	}
+	public void setFile(ArrayList<String> file) {
+		this.file = file;
+	}
+	public ArrayList<Table> getSqltables() {
+		return sqltables;
+	}
+	public void setSqltables(ArrayList<Table> sqltables) {
+		this.sqltables = sqltables;
 	}
 	/**
 	 * A function that get map of macs and change the database by the new detials

@@ -25,7 +25,7 @@ public class AddFolder extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public AddFolder(DataBase database , DataBase temp  ,ArrayList<String> files) {
+	public AddFolder(DataBase database) {
 setFont(new Font("Arial", Font.PLAIN, 14));
 		
 		this.setSize(600, 300);
@@ -86,8 +86,8 @@ setFont(new Font("Arial", Font.PLAIN, 14));
 				}
 				else
 				{
-					files.add(DirLabel.getText());
-					Wraper.AddFolder(DirLabel.getText(),database , temp);
+					database.getFile().add(DirLabel.getText());
+					Wraper.AddFolder(DirLabel.getText(),database);
 					DirLabel.setText("No Selection");
 				}
 			}

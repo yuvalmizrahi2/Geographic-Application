@@ -27,7 +27,7 @@ public class AddCsv extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public AddCsv(DataBase database , DataBase temp , ArrayList<String> files) {
+	public AddCsv(DataBase database) {
 		setFont(new Font("Arial", Font.PLAIN, 14));
 
 		this.setSize(600, 300);
@@ -86,8 +86,8 @@ public class AddCsv extends JPanel {
 				}
 				else
 				{
-					files.add(label.getText());
-					Wraper.AddCsv(label.getText(),database,temp);
+					database.getFile().add(label.getText());
+					Wraper.AddCsv(label.getText(),database);
 					label.setText("No Selection");
 				}
 			}

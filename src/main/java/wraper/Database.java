@@ -14,13 +14,12 @@ public class Database {
 	 * @param database
 	 * @param temp
 	 */
-	public static void Reset(DataBase database , DataBase temp) {
+	public static void Reset(DataBase database) {
 		new Thread(new Runnable() {
 
 			@Override
 			public void run() {
 				database.Clear();
-				temp.Clear();
 
 			}
 		}).start();	
@@ -30,13 +29,13 @@ public class Database {
 	 * @param database
 	 * @param temp
 	 */
-	public static void CancelFilter(DataBase database , DataBase temp) {
+	public static void CancelFilter(DataBase database) {
 		new Thread(new Runnable() {
 
 			@Override
 			public void run() {	
 				database.Clear();
-				database.AddDataBase(temp);				
+				database.AddCollection(database.getArraysampletemp());				
 			}
 		}).start();
 	}

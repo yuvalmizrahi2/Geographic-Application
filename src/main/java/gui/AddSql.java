@@ -25,7 +25,7 @@ public class AddSql extends JPanel {
 	/**
 	 * Create the panel.
 	 */
-	public AddSql(DataBase database , DataBase temp , ArrayList<Table> tables) {
+	public AddSql(DataBase database) {
 
 		this.setSize(600, 300);
 		setLayout(null);
@@ -115,8 +115,8 @@ public class AddSql extends JPanel {
 					else
 					{
 						Table table = new Table(textArea.getText(), textArea_1.getText(), textArea_2.getText(), textArea_3.getText(), textArea_4.getText(), textArea_5.getText());
-						Wraper.Addsql(table, database, temp);
-						tables.add(table);
+						Wraper.Addsql(table, database);
+						database.getSqltables().add(table);
 					}
 				}
 			}

@@ -65,9 +65,9 @@ public class Wraper {
 	 * @param database
 	 * @param temp
 	 */
-	public static void Addsql(Table table , DataBase database , DataBase temp)
+	public static void Addsql(Table table , DataBase database)
 	{
-		Add.AddSql(table, database, temp);
+		Add.AddSql(table, database);
 	}
 	/**
 	 * A shell function for adding csv file
@@ -75,8 +75,8 @@ public class Wraper {
 	 * @param database
 	 * @param temp
 	 */
-	public static void AddCsv(String pathfile , DataBase database , DataBase temp) {
-		Add.AddCsv(pathfile, database, temp);
+	public static void AddCsv(String pathfile , DataBase database) {
+		Add.AddCsv(pathfile, database);
 	}
 	/**
 	 * A shell function for adding folder that contain wigle files
@@ -84,8 +84,8 @@ public class Wraper {
 	 * @param datebase
 	 * @param temp
 	 */
-	public static void AddFolder(String pathfile , DataBase datebase , DataBase temp) {
-		Add.AddFolder(pathfile, datebase, temp);
+	public static void AddFolder(String pathfile , DataBase datebase) {
+		Add.AddFolder(pathfile, datebase);
 	}
 	/**
 	 * A shell function for adding filter
@@ -101,16 +101,16 @@ public class Wraper {
 	 * @param database
 	 * @param temp
 	 */
-	public static void Reset(DataBase database , DataBase temp) {
-		Database.Reset(database, temp);
+	public static void Reset(DataBase database) {
+		Database.Reset(database);
 	}
 	/**
 	 * A shell function for cancel the filter that done in the database
 	 * @param database
 	 * @param temp
 	 */
-	public static void CancelFilter(DataBase database , DataBase temp) {
-		Database.CancelFilter(database, temp);
+	public static void CancelFilter(DataBase database) {
+		Database.CancelFilter(database);
 	}
 	/**
 	 * A shell function for show in google static map the result
@@ -154,18 +154,25 @@ public class Wraper {
 	 * @param file
 	 * @throws InterruptedException
 	 */
-	public static void fileslisten(DataBase database , DataBase temp , ArrayList<String> folder , ArrayList<String> file) throws InterruptedException {
-		Listener.fileslisten(database, temp, folder, file);
+	public static void fileslisten(DataBase database) throws InterruptedException {
+		Listener.fileslisten(database);
 
 	}
 	/**
-	 * A sheel function for listen to folder
+	 * A shell function for listen to folder
 	 * @param database
 	 * @param temp
 	 * @param folder
 	 * @param file
 	 */
-	public static void folderlisten(DataBase database , DataBase temp , ArrayList<String> folder , ArrayList<String> file) {
-		Listener.folderlisten(database, temp, folder, file);
+	public static void folderlisten(DataBase database) {
+		Listener.folderlisten(database);
+	}
+	/**
+	 * A shell function for listen to sql table
+	 * @param database
+	 */
+	public static void sqltablelisten(DataBase database) {
+		Listener.sqltablelisten(database);
 	}
 }

@@ -26,7 +26,7 @@ public class Add {
 	 * @param database
 	 * @param temp
 	 */
-	public static void AddCsv(String pathfile , DataBase database , DataBase temp) {
+	public static void AddCsv(String pathfile , DataBase database) {
 		String str = pathfile;
 		new Thread(new Runnable() {
 
@@ -34,7 +34,6 @@ public class Add {
 			public void run() {
 				synchronized (database) {
 					database.AddCollection(CsvToSamples.readfile(str));
-					temp.AddDataBase(database);
 				}
 
 			}
@@ -47,7 +46,7 @@ public class Add {
 	 * @param datebase
 	 * @param temp
 	 */
-	public static void AddFolder(String pathfile , DataBase datebase , DataBase temp) {
+	public static void AddFolder(String pathfile , DataBase datebase) {
 		String str = pathfile;
 		new Thread(new Runnable() {
 
@@ -55,7 +54,6 @@ public class Add {
 			public void run() {
 				synchronized (datebase) {
 					datebase.AddCollection(IOCsvFile.readfile(str));
-					temp.AddDataBase(datebase);
 				}
 
 			}
@@ -95,7 +93,7 @@ public class Add {
 	 * @param database
 	 * @param temp
 	 */
-	public static void AddSql(Table table , DataBase database , DataBase temp)
+	public static void AddSql(Table table , DataBase database)
 	{
 		new Thread(new Runnable() {
 
@@ -108,7 +106,6 @@ public class Add {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-					temp.AddDataBase(database);
 					
 				}
 
