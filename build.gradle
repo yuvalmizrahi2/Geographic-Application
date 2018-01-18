@@ -26,6 +26,14 @@ configurations {
    jaxDoclet
  }
 
+jar {
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/*.MF'
+  manifest {
+    attributes(
+      'Main-Class': 'gui.MainFrame.java'
+    )
+  }
+}
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
@@ -50,21 +58,4 @@ compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
     
     
 }
-javadoc {
-source = sourceSets.main.allJava
-classpath = configurations.compile
-}
-task generateRestApiDocs(type: Javadoc) {
-   source = sourceSets.main.allJava
-   destinationDir = reporting.file("rest-api-docs")
-   options.docletpath = configurations.jaxDoclet.files.asType(List)
-   options.doclet = "com.lunatech.doclets.jax.jaxrs.JAXRSDoclet"
-   options.addStringOption("jaxrscontext", "http://localhost:8080/myapp")
- }
- task myZip(type: Zip) {
-   from 'Task/'
-   include '*'
-   include '*/*' //to include contents of a folder present inside Reports directory
-   archiveName 'Project.zip'
-   destinationDir(file('Task/'))
-}
+ 
